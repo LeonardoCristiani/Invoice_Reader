@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>78751</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>2OH2JHA</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03368590968</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03368590968</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>FINWAVE SPA</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA MASSIMO GORKY 30/32 C</Indirizzo>
+				<CAP>20092</CAP>
+				<Comune>CINISELLO BALSAMO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-08-09</Data>
+				<Numero>FT/246</Numero>
+				<ImportoTotaleDocumento>3660.00</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>CONSULENZA TECNICA INFORMATICA
+
+MESE DI LUGLIO 2023
+
+RISORSA MORARIU(20GG)
+
+ORDINE F1/30081 DEL 19/01/23
+
+BENESTARE 07082023_1908</Descrizione>
+				<PrezzoUnitario>3000.00</PrezzoUnitario>
+				<PrezzoTotale>3000.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>3000.00</ImponibileImporto>
+				<Imposta>660.00</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-08-09</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>83</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-10-31</DataScadenzaPagamento>
+				<ImportoPagamento>3660.00</ImportoPagamento>
+				<IstitutoFinanziario>INTESA SANPAOLO SPA</IstitutoFinanziario>
+				<IBAN>IT07D0306909465100000010391</IBAN>
+				<ABI>03069</ABI>
+				<CAB>09465</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

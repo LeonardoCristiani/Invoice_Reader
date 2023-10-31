@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="fatturaordinaria_v1.2.1.xsl" ?>
+<FatturaElettronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+    <FatturaElettronicaHeader xmlns="">
+        <DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>06628860964</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>1639704695</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+</DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>09165870156</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>BSTGST56D20F205R</CodiceFiscale>
+                <Anagrafica>
+                    <Nome>AUGUSTO</Nome>
+                    <Cognome>BASTIANELLO</Cognome>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>VIA REINA</Indirizzo>
+                <NumeroCivico>37</NumeroCivico>
+                <CAP>20133</CAP>
+                <Comune>MILANO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <Contatti>
+                <Email>augusto.bastianello@gmail.com</Email>
+            </Contatti>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>07633540963</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>SGI SERVIZI GENERALI INFORMATICI Soc.Coop</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>CORSO BUENOS AIRES</Indirizzo>
+                <NumeroCivico>47</NumeroCivico>
+                <CAP>20124</CAP>
+                <Comune>MILANO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente><TerzoIntermediarioOSoggettoEmittente>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>06628860964</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>06628860964</CodiceFiscale>
+<Anagrafica>
+<Denominazione>PA DIGITALE S.P.A.</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+</TerzoIntermediarioOSoggettoEmittente><SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody xmlns="">
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD06</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2023-05-30</Data>
+                <Numero>151-FE</Numero>
+                <DatiRitenuta>
+                    <TipoRitenuta>RT01</TipoRitenuta>
+                    <ImportoRitenuta>36.00</ImportoRitenuta>
+                    <AliquotaRitenuta>20.00</AliquotaRitenuta>
+                    <CausalePagamento>A</CausalePagamento>
+                </DatiRitenuta>
+                <DatiBollo>
+                    <BolloVirtuale>SI</BolloVirtuale>
+                    <ImportoBollo>2.00</ImportoBollo>
+                </DatiBollo>
+                <ImportoTotaleDocumento>182.00</ImportoTotaleDocumento>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>1 - PRESTAZIONI PROFESSIONALI DI MEDICINA DEL LAVORO</Descrizione>
+                <Quantita>1.00</Quantita>
+                <UnitaMisura>PZ</UnitaMisura>
+                <PrezzoUnitario>180.00</PrezzoUnitario>
+                <PrezzoTotale>180.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <Natura>N4</Natura>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Normale #NO#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCodIVA</TipoDato>
+                    <RiferimentoTesto>Esente art.10 n.18 (prestazioni sanitarie) #N040106#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+                <Descrizione>Spese Bolli</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>2.00</PrezzoUnitario>
+                <PrezzoTotale>2.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSpAcces</TipoDato>
+                    <RiferimentoTesto>Bollo virtuale #SP08#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCodIVA</TipoDato>
+                    <RiferimentoTesto>Escluso dalla base imponibile art.15 #N010100#</RiferimentoTesto>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N4</Natura>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Parcella #TPD51#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Parcella immediata #CD51#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Percentuali come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTratSco</TipoDato>
+                    <RiferimentoTesto>Valori come righe sconto #PRS#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoPag</TipoDato>
+                    <RiferimentoTesto>Bonifico bancario #TP06#</RiferimentoTesto>
+                    <RiferimentoNumero>1.00</RiferimentoNumero>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N4</Natura>
+                <ImponibileImporto>180.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+                <RiferimentoNormativo>Esente art.10,n.18 (prestazioni sanitarie)</RiferimentoNormativo>
+            </DatiRiepilogo>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N1</Natura>
+                <ImponibileImporto>2.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>Escluso ex art. 15 #N010100#</RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>BASTIANELLO AUGUSTO</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2023-05-30</DataScadenzaPagamento>
+                <ImportoPagamento>146.00</ImportoPagamento>
+                <IstitutoFinanziario>INTESA SAN PAOLO</IstitutoFinanziario>
+                <IBAN>IT11O0306909590100000008741</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+        <Allegati>
+            <NomeAttachment>PARCELLA_num_151-FE_2023.pdf</NomeAttachment>
+            <FormatoAttachment>PDF</FormatoAttachment>
+            <DescrizioneAttachment>PARCELLA n° 151-FE del 30/05/2023 #AL01#</DescrizioneAttachment>
+            <Attachment>JVBERi0xLjMKJeLjz9MKMSAwIG9iago8PCAvVmlld2VyUHJlZmVyZW5jZXMgPDwgL0ZpdFdpbmRv
+dyB0cnVlCj4+Ci9QYWdlcyAyIDAgUgovUGFnZU1vZGUgL1VzZU5vbmUKL1R5cGUgL0NhdGFsb2cK
+Pj4KZW5kb2JqCjIgMCBvYmoKPDwgL0tpZHMgWyA0IDAgUiBdCi9Db3VudCAxCi9UeXBlIC9QYWdl
+cwo+PgplbmRvYmoKMyAwIG9iago8PCAvVGl0bGUgKEJPT0sgQ2xhc3NpY2EpCi9DcmVhdGlvbkRh
+dGUgKEQ6MjAyMzA1MzAyMTMzNTMrMDEnMDApCi9Qcm9kdWNlciAoSURSRSBQcm8tR2FtbWEpCj4+
+CmVuZG9iago0IDAgb2JqCjw8IC9QYXJlbnQgMiAwIFIKL01lZGlhQm94IFsgMCAwIDU5NS4yOCA4
+NDEuODkgXQovVHlwZSAvUGFnZQovUmVzb3VyY2VzIDw8IC9YT2JqZWN0IDw8IC9JbWFnZTEyIDEy
+IDAgUgo+PgovRm9udCA8PCAvRjkgOSAwIFIKL0Y2IDYgMCBSCj4+Ci9Qcm9jU2V0IFsgL1BERiAv
+SW1hZ2VDIC9UZXh0IF0KPj4KL0NvbnRlbnRzIFsgNSAwIFIgXQo+PgplbmRvYmoKNSAwIG9iago8
+PCAvRmlsdGVyIFsgL0ZsYXRlRGVjb2RlIF0KL0xlbmd0aCAxODM3Cj4+CnN0cmVhbQp4AbVY3W7i
+SBa+5ymORmoNs5ou6t/2XK0DTmQJMA1ORormxiHuyCvAWUJmVnu1j7SPMI+zjzGnbMeuwtAkLW0i
+IYzPT331nb8qSiQD2n4sbwbU/WX/NLhKB1z5RHDwKSNCQfqIUorCH4PRtQbGCaWQfsXfKIN0PRhe
+has0DufRdJpAeHtzu0qTn9J/DKh5GaWWPS9AHW7sja4D8Bs7w7s4hGUUz8OfQXjwGThlQsAsnobz
+BH4bzuLffjL2XFM+I1QYU8MFie9CoAHTyvcoU7ov7OGaZSU8JtcErlbpzSpVesLpNadq2VfQglBd
+KazzDQEhBMN/4fO+qJKEepVo9vr0+nIoyUP2ciiyXb7ZlH9/2mbFhqzLbaNICVe4kZR4FLoP5IH7
+Zqs9ERCPw3agtCaBeHveDFbHRKEKLkIwohToICCCOTwFHU/DcbJcJXB1G82TFYTxMlqB9KBD0hjx
+JdF+BQQJ4BKJcCiAvoaHdFbhMYzTcBqHxwIeE0T6Nd+nAmd1E8MqWt7F9zHcRPNoiUYgnl8ny1mY
+xmN8Wa7JuCyfj8Kpsc49otVbNJ2w/pwfDmST95Q94qM25YTJJoAAI8havCeJkrYExYAQStJACxtj
+beg0yOG4fCT2lklOAmZJDyf5y4H0vVrmbBJvV+HUX9x18hKTU0vQEjnnrXv2Jr8Il2PMSAuWlJrI
+wFEILAXY/ddartSU+MFZ60yxz9eRJR4wwuV524/5xjKuaEB876xxQUdUjTjlok0a34fuA2tUnS0q
+8AljoJipKgxtStjng6+Xkkwb4gQmmYdp4709mhzrzCKYt/fNY5ODHnQfdfm0f6nLZ5MeVFWInOoZ
+dEk5icfRWYCdawTIuSCBfBdCB9J2IKgwlcGC6GBqBT6O0edEeX2Mw0m0Gi8xoZP5eXCWU0QntEmj
+94Bz0eDiMYCYttG5cFqJ76EQ16NP4PtC0j/PA+vcGdqqaHoXMAcILlv7xp0NzAHSSnwHMClJwE8A
+uyUwI+eRdf4QmVaE0/chc5BsB1II88ZG5iBpJb4DmSeq7O4hWyyj+/sEpslykpwFaLk1MSnfW1Jc
+QLh87ZmObQF0AbUSHwcoZTU+9QF+gtVodh4ZOgq+g7pGr0WmNG5K4CDrLFfIGomPI1Oianp9ZGmC
+g8X5QiLRIX77OGm1XkeaA7WC1lmuSXOgfoQ0bOum654grRs6uoUq6D7ahqU0tnqvmwqb59NT4cmB
+vu5ICkc8yY/nRNo29a5D19W9k68adCuICbVKQ1PjY1gsk+totcLvZnibxDCLsLHhMA+TaNoziIM4
+r6f2aXiXLBNr/OGc4NRvu3TW9jOllrBSRDNLeLi4tycjTnxqv2U+dfQl6jvOhvSTNZ5gNPJv6+NB
+RitH/33zvcBOTq35vnmumTxNPpZHLPytRv3YKPTaiDLfjFGmqu5XPzNpVnvhECFws/nZcWWWTJDf
+9E/D8CK8CWfRPE0uYXb9t+vhiETqi+uhlAS9w2cbEFflrvharEt4yHbrbF+Ux4cP7vvEqw9m8e6A
+s3Z2MGK/WHNoTV8n6IbcmWOt48PTRPn9BImvwrntSHmEB4607ShOGUuooDqggQooo/Wf70l2qT6Y
+HcWKZXYULbdB0jyf32EZmNOzobxXD1rKV+NwEs3vw18g3m7zxwL37/+0HKm4qZEctynwz5anePuM
+nD8U9Ymu2Vg80zBuaQ6PEhVTWWngUhC/OiAP5+UOilOWcAzFLbEkTxUNRMF5QHRdw9LykG1y9/D4
+tqJO6sgKZjWWQM6UyQHz/m8wy/brDB4zeCg3m7Jvq5PlR7Z4hQ5Pghhe1ooey/XrNt8dyj6+Tpb5
+R9YY5gFGse+ZZmoklsWBQLZeE1T7NMK4tIukxFOXb0sL7ZrztUkrjHm/ree8Pc7+B5i05C+UTRNA
+QjQVpAkwIc6UTbfKtFWHiaqDX6g6XAkTe2dSwjrcuKxzPN1jWe60h/Fsge3xKp5ap2SB517DvSuF
+rdSpKwIZR3P1hQ42JvgM0QuSmUO4PxBGYUeYDxOyIEsCWoiRd3QrJXVlQOkTbfQopgVXZuc7cTta
+L5BiNtTzOlKa52+S0pBgkUKJCC6RwnCVgTxHyjxJo3d2osZd6x6bKRUXveNUKG3vw3H5XGTmTmOT
+wdfscHjdZ1BsYP1aQLkvnoqdycH/ocBz+VJg3ynBXAb+mO3zDP7IH+CHWimHHNblfl+8mJuq4vfi
+h+P+wqg2k6ThxXj7MXzKd/9uXOcQ7Q777JCTYy2sU9RvSospddj64LGoiwtkLy/lBn8odrAtH0v4
+vdgfXs1683/BZAbMG1E9wioh7SDBXZPmnF5PsM5g8M0uKU3kCVvTvtLCwLZFA3OP6ogG9t1UfeVU
+3SR1F0Ro4jkzGw4MRvDWLv85wImDoTEMVCw+9QPDbo/RgQeDX2HXimCIvL1xdNbbwSjeZk851t9J
+Ofgy+PIXCmVuZHN0cmVhbQplbmRvYmoKNiAwIG9iago8PCAvU3VidHlwZSAvVHJ1ZVR5cGUKL0Zv
+bnREZXNjcmlwdG9yIDggMCBSCi9FbmNvZGluZyAvV2luQW5zaUVuY29kaW5nCi9XaWR0aHMgNyAw
+IFIKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMTkyCi9UeXBlIC9Gb250Ci9CYXNlRm9udCAvQ2Fs
+aWJyaS1Cb2xkCj4+CmVuZG9iago3IDAgb2JqClsgMjI2IDAgMCAwIDAgNzI5IDAgMCAwIDAgMCAw
+IDAgMzA2IDI2NyA0MjkgNTA2IDUwNiA1MDYgNTA2IDAgNTA2IDAgMCAwIDAgMjc1IDAgMCAwIDAg
+NDYzIDAgNjA1IDU2MCA1MjkgNjMwIDQ4NyA0NTggNjM3IDAgMjY2IDAgMCA0MjIgODc0IDY1OCA2
+NzYgNTMyIDY4NiA1NjIgNDcyIDQ5NSA2NTIgNTkxIDAgMCAwIDQ3OCAwIDAgMCAwIDAgMCA0OTMg
+NTM2IDQxOCA1MzYgNTAzIDMxNiAwIDAgMjQ1IDAgMCAwIDAgNTM2IDUzNyA1MzYgMCAzNTUgMzk4
+IDM0NiAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCA2MDUgXQplbmRvYmoKOCAw
+IG9iago8PCAvQXNjZW50IDc1MC4wMAovSXRhbGljQW5nbGUgMAovQ2FwSGVpZ2h0IDY5OS43MQov
+Rm9udEJCb3ggWyAtNTE4LjAwIC0zNDkuMDAgMTI2Mi4wMCAxMDM5LjAwIF0KL0Rlc2NlbnQgLTI1
+MC4wMAovU3RlbVYgODAKL0ZsYWdzIDI2MjE3NgovVHlwZSAvRm9udERlc2NyaXB0b3IKL0ZvbnRO
+YW1lIC9DYWxpYnJpLUJvbGQKPj4KZW5kb2JqCjkgMCBvYmoKPDwgL1N1YnR5cGUgL1RydWVUeXBl
+Ci9Gb250RGVzY3JpcHRvciAxMSAwIFIKL0VuY29kaW5nIC9XaW5BbnNpRW5jb2RpbmcKL1dpZHRo
+cyAxMCAwIFIKL0ZpcnN0Q2hhciAzMgovTGFzdENoYXIgMjMyCi9UeXBlIC9Gb250Ci9CYXNlRm9u
+dCAvQ2FsaWJyaQo+PgplbmRvYmoKMTAgMCBvYmoKWyAyMjYgMCA0MDAgMCAwIDcxNCAwIDIyMCAz
+MDMgMzAzIDQ5OCAwIDI0OSAzMDYgMjUyIDM4NiA1MDYgNTA2IDUwNiA1MDYgNTA2IDUwNiA1MDYg
+NTA2IDUwNiA1MDYgMjY3IDAgMCAwIDAgNDYzIDg5NCA1NzggNTQzIDUzMyA2MTUgNDg4IDQ1OSA2
+MzAgMCAyNTEgMCAwIDQyMCA4NTQgNjQ1IDY2MiA1MTYgMCA1NDIgNDU5IDQ4NyA2NDEgNTY3IDAg
+MCAwIDQ2OCAwIDAgMCAwIDAgMCA0NzkgNTI1IDQyMiA1MjUgNDk3IDMwNSA0NzAgMCAyMjkgMCAw
+IDIyOSA3OTggNTI1IDUyNyA1MjUgMCAzNDggMzkxIDMzNCA1MjUgNDUxIDcxNCA0MzMgMCAzOTUg
+MCAwIDAgMCAwIDUwNiAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMzM4IDAg
+MCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAw
+IDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgMCAwIDAgNDk3IF0K
+ZW5kb2JqCjExIDAgb2JqCjw8IC9Bc2NlbnQgNzUwLjAwCi9JdGFsaWNBbmdsZSAwCi9DYXBIZWln
+aHQgNjk5LjcxCi9Gb250QkJveCBbIC01MDIuMDAgLTMxMi4wMCAxMjQwLjAwIDEwMjYuMDAgXQov
+RGVzY2VudCAtMjUwLjAwCi9TdGVtViA4MAovRmxhZ3MgMzIKL1R5cGUgL0ZvbnREZXNjcmlwdG9y
+Ci9Gb250TmFtZSAvQ2FsaWJyaQo+PgplbmRvYmoKMTIgMCBvYmoKPDwgL1N1YnR5cGUgL0ltYWdl
+Ci9IZWlnaHQgNDUxCi9Db2xvclNwYWNlIC9EZXZpY2VSR0IKL0ZpbHRlciBbIC9GbGF0ZURlY29k
+ZSBdCi9CaXRzUGVyQ29tcG9uZW50IDgKL1dpZHRoIDM0Ci9UeXBlIC9YT2JqZWN0Ci9MZW5ndGgg
+NjE5MAo+PgpzdHJlYW0KeAHtXflXIsnS/f9//t7r6Z5Wu1VEFAEVEBUBERQE2WRREGUHRVRcQEFs
+vkuFZpdsY1NZnu55xokzh0p78lYuEXkjt2q3P0QWKeVzsuafSsZnJz4pvv7f7U2VUq6rl26HVT31
+dV2vie37pUNcV69mv/0FCIbSaj0atSpKIT2OH0hE2dpYoayc1rVWq4UUl32DUnSz3+mH6ttfElE0
+MxPI5+ggSo/393XKGTWGx/Rxgh6vLisjQ6CKxHUFiQT3KOX87JRSnistMXqlXV1eUCZoHUox6ebw
+uKZfoMcfP37QP0APGRml2WxSJpvrBnFBTo4O8fj09IQO9vwaV5cjo0Bsq3rKZ2bsP/TDoFHSn6yr
+y5SiVyukQEBOi7m571/E/baQTdOfNoy6Tgf7/llK0zNBbew6bfqFGYd1tVI+ZekolHvLcn5Wkg4x
+SEJ7bqh8+UMeXqyGV4boojubZo1iHH6GdYAuzZwcSUQxamf75swRpV6rUT6rS2o4NCg6NrrW2vIC
+pZsW56ESUZrNBuX29NQSp3NvF9h7OODtTYefhPJCgWRTx/7dbWBdVs4p5eqCgxmKJRmPsVaGmVfK
+Z1RddrORI8qCYkzcnXYdNtYoPreDC8Td7Q1lGI/uw30tqiYxPiLd53Z23OaCkgsKhnjkhszp0W7u
+jM4/np7aL4MXFxQIhnvkls+k8HvP5cDvh/t7FA0/5if/5gIBOgF7ZE1PP7TKb/QDtskF5fHxcYhj
+yaaSHFHQ4vAqYvVsb56VClwgSBoP9xxzGyTl0+IQ5QLx+Ngc7vP/IBRI2O9hCv8MAnYQDoJXAOIw
+GuKF0lfAW4ACWi4rymkxL5jnBJfcQIPhGIN77n2hukgx1izNTQEFoRMXlOGtbzbo5EZZVisQy3BB
+gVSvLroUUcaOEI4xwiyTAIjok6woufQJxRpcckO7YKBEExg1s6tL84i7zQYtaB41DSgBL5QhfSzI
+ifP3RcGgiXgffoYLhNzy2Gy+UaWg0EzCW/T3R6FQBTG+ZWWJhhLggrs+q9NGUTN+S0ERC1kHaL84
+sVTIItG2pucC0Wg89LXx6+olR89PKFAEL7AdSoTD3Latc7R9CAshUSJ4G3GggbbjhXJ7U11QjPf2
+Lr1aIdFeeiURC6OW4C0tK4suu4XmlP5EgYGATjAPiYgv6HVxmUdiQsEd08zJEcWViGJqd7e8UGju
+BdQLih9W0xKLXq2ry1wgyPoUQpTX7szJqNTTX9vCFBDFNVxQIMqJT/Ba9Bu9C5k3Gw2KaqEIo7ig
+0Iwo+OT5acluNio6c8sRPHJksMPjyp1Ns9woGBF4dWagIFbdc20hwBer3Kskz/LjBwwTKisI91k4
+OEb4SbhlpbDQ01f/rNlRjGVbGyYoUQ4MAZQO2g/9U2ZHoyEfzL83He8vvTm65Dhx4LStI74wLc7B
+fLjnD2FTZHKEFSQ0v0dq0s0BcX7qb3rsW5OjCVEjDMpiJ0+LiWAaXCBqtTt6bQxn4vTqVWd0mxn/
+748fP6SjMJ/cNXkY8OwgkY1u0sWwoKQMMQpjIMtnU37PNk2Qopl4oeQzqUGOhddcHwmGYPXUV3H+
+eJTDZJqNh0IuAzgQv9NiDgSDO8SH/I9LOpkAn3RYV+H/QV3Kp/zXjsEhe02S13IVyb7fw3KGn2H7
+SYgw80Kh2RK8ef3ujlJurqugGQph4ZULBOMwdzfX4vRyqUienwvKU6tFKGw9lCQZj/L1/Gv6zqyC
+enosefi8JcYpTFwouM7BnhULL53KSSlApBS4TV4okNRRHM0NmkGPaA7QSzlM5n3kMBqyreoRFC/N
+T8NIWRvxklarpVcrem0fDJMjCpgYZYvm2FhZtJiWdKpJSoFb4IVCI37Xm3u2NxX81l9qt7d9bR9O
+pm/EMZogE8qta+MWbU7jtSYOQTShECZC47FwIZuG7ew6bFSNiMh4oSC0H8T6Ls7PeKG0hfpZfOlX
+pOhmoGccIUjA7c/PTsEnj+OxLv/MRUAjhygXiH/TmjhQHJZVUgxe8JOuLQt6snL8k+r7Z3gALiiD
+JBryoSCx/YCsKNdCXLkseQMkk/OzEqxPrLAU0+IctQvt85Eow1uf1z6lISggmV0LTFIkHPAyRaMj
+4gNxRWDebH4EfR8iozzc10H77es8tymSNBoPx4kDh8Uk3hTNK3OYhnvLwnbZvTJMTmuv7Ze9iGI1
+6eaCe26+E0ri/I1aVTZ9zGV+r0tKhZx32w6SLIbTL8zA4XDfDdsWVuL8nm0xlvTjFb2CDsZWrrmj
+ICACt+/qAIA7jATv6zVeKOLMERTLtAOqr5mAyaCMHJeSK+UzdKd1g7YXjtfcRZeAaSDKE68uyYEi
+lrNigW8A2yW1u9t4dB9hLPey1Gt3IBV2s3H29Uofr/zBjbs2qDNFcXihdOUMkwn7PYiReeXfF8Wy
+siiTWwYxRjTRU6j5vicjpAuM3bZmkM8np5MJdqLq5yjDL7KgXRCvqL5GGQnu1WvcHHL7detbVpZK
++RyvHR1iUb4ei5na1vRhP8/Wv7q8QAiJPtyLxRFFLJeVczQKi/hkQhFL6mj0c4jDBUwmtu9nuwg4
+5nx7U6U52K5Tabx2DkPYCrhY0fHgBBKxMC+ULoIEUiGHvdCYKNatDZNMbjmfTdHKzivyz2mVp0tg
+nvL5ZBSEzkCJFXETWyuRLsrxV3RicW4q6HVxZMgkPU2/ApO/fT1VLl2QLTvD1d36/PYqkIC0wAbh
+7d/HJ7efXVmAVuV45XkQDtrXjXxPh3UJ21vFazviIEE4DJQwv2WjQSLrGe13lsfHZjTkQx/AcL+i
+U4GhIX7hCwHWKl7TZ6pTTT7wO5eEl/9JWRdmQCyZZ+N1aqDZeN496NneZG/earXI/6unvnJBIXsB
+i+iqHNpFwHF+jEhRMZ8VJ4LSIHHDKGlV1GzQIbIzalWIHWi7uHp6zGFdZaoQphQSB5I4zL/plM2/
+WPZ9u0bNbN/bG3hBsH0p8rXLff15FIMB6ma/g5VBO3c4rOkRmvFaE4erJJS72xsuGQ4SiixkhWgL
+my0VwvZdxEq9ygvlfazyfVAwsgxRXijvI/FYeIi2haNwiM3rtbuRIdgdREPahaaXXVsWWVFotmTb
+tj4ySls4ejxE28L08r7fw9F2xJLPpOiqDfmEzliBmPHKELFwXyUUuGUEHVKu0iJ5IwGQeHpoeOZs
+tZQjA2QibpeTo0MC4t7NgAIOwFqfUCReDtYW4uIhE8j4q8R47aZ6xW60A3dtCxQdHIBvoNQ1k3AQ
+DrDAmZdVMj8GN0VnkA0Lyvv7+vxkhwzw4jDs/As9rhu0qm+f2y+7o0E8uKBAFoVrOmiukqK/h/v7
+25trBdc5WDpdazZo8UOv7swwBDw7tD1yeX6aC8TwU5zgz7KiKCc+ebftXCDaQjiMMb2Qy6AhxMor
+/+ECk1man17i1C5MyqelUiFXzGdIMydJqjp6lL4jDtSObHCISj+j1He/DV8UuqFFIWzeTsZjz3oY
+ZZdDwq1BJS74susru9K5n+IcFKegdBx3p/cV7mVJJxMuu0WrnFB9/zxo7ZLHSWGV3H3svv58ygaU
+275uhFpNS/DP7IwqxgKo1JPCL3N9Ty15TwqH0Zf6efjUUZz7qijCh44fy2WI6jPllX+lfMpWWnuV
+FwrdQiMrCju1sblu2HXYUsk402Q8ymvtFc1BKFz2VA8ROsjTeHiQFSUW6tz3Cx57EA6CA9AFoUx5
+oQz3LX8WylmpMER5obyDPD42ERANUV4o79AuhNIJVCc6h0RAzNTTY2wVYEExzgWlr9Rrd+CuRJPk
+Q2m/TJijULKiIMacGf8v3/mKbCqJQAzs66JSphTux6zoIC0pQlcMas+3AXPdZs9OuZKKbwNmZ1Ql
+ys/bgGNhRGSIl8kS6Q4ifrcBd84kstuA6a5+8W3AvHb4UKeliVB2GzCtV/K7DfhxdWn+pemf16yZ
+7bP78yXKP9wGnOZzLun5NmDV5MbKolgR7J8V+d4GLC+vYCLHtrQuoav+uW+BEAs7KUzfTZBPXPYN
+mPxxPCYryr9Gms0mIsoh2hYC/7XlBYTSUlD+kcPQLYtWCbvu34JC17YHPDsjo7xRRp7hfxKkX3oL
+SpPwHG8FJDkt5gvZNFt0Y6sh9CjdBbkdVlW/3VBi5THX98+7VnjN9Xm2N2myAorqiu0HKB1hMlTi
+FZTvNtdXq93V+q1Eg9481Gv39dEXqT9EJkGjnBWyR9HAvseRT/1yZwY9HnIvOjpe7fY6EfH7nBuC
+Wk4Ow7XOtpwfv0RoG42HaNDXlYgY86pSzqcSUZ/Lt205CHpyJ3Gk1AFQvTwrZI4P9mOB3btfWYEV
+73J8uK9lj+P7Xqd/xxre286nk7AX6OX5aTIWRHUFXJsoFP6ajIV+aROmz+XMpZKV00J8fy+0u4WX
+zCQPqxfnd7fX5WIO1RV0b3bS/e5kNHiaT19fVRDVwleUT4uJgwjCHHYT8hC5OD+zruiOD/dRFRdn
+xVIudRKPACvsdSbCvmLmGIioKvwzOLGQbxdUyrQ4jxiErsHEANr3NozyaTfv7VwBVMofhrwBly0W
+cOdOEsgZ/+/VRQUk0GFZ7fomlFgRQPW997iQTVVfn8oMel37Pnc6eZA8jIQDXteWZd2gfYuLVggn
+mFqtPlfHIMKKBr3iP52VCghV5ia/9N1t26VmgxZFg6+mA194pUGTkCHvTj7zMyRBzNU7x9u5UHfy
+C6p9aW4KvGJFpwrtuTeMi0cHUTQKAmqUQjF0g4THYbGZdOIPi7CRl94WwdfyvMJhMSFA87kdnm27
+e8v6CuUwCm42M/afg8jAu+jTybhxYXrHtiqut3W9lsV3kYAXWYEUIR90gM11I3osHoGCbEE28pmU
+fmFmduLTEBKI1l9bUq1oFPFokNXqZeWcFuDQRsgEdYV+i0c4B7xANORH4AwUlEijGM+ljlFYNBDY
+CMu2a9Xsvl5zmA0ozuriLPuOGFxTyOemnZaoQJNu/kAYjn1uJ2JklEiMkozH1NNj6umv4t2G8UhI
+3Kvx/n73FlA6QLpZdi0PnIZZOCmMFoFPOIwEkZV/16mZGQfuTxShsPNTX1FeceMisWtXxkkiRihQ
+m2nx6uKcFdOoVaFL72xu7Lm2HJY1j3MTDYHm3towuR02QinlszPj/+26BeWmetVFcjp7OV5QoBaj
+Bv6W/DnM5+Vq6+WDcMBuNqInHISDcAJoKULJZTrfhnBa117lKZwEEacgQ+TcBVTInNCfirkMKn9h
+egxNDxSYjH93G90MKHsuh252ki7EC71eFbq9rvbe8XUY9otR0OVWdcrM8fOyEbocHemFyaCxAGFb
+MyBb1CFbbs6evLo+FO17GOn+UszdzXVob2drXY9efXQQLubSAAJc2L9LYweaUq9WqL5/Rrug9laX
+1OaXU+RI8e5sNRuvpgjwDn1vdAerx+AClMtKuXp5gR9UqG3rCtHIeq1GZ0jhbWh7PzyPy25BiNHl
+vq6rl6jYSrn/LVLw8CbtDEokrj3o+vJcPnOC12g2G2xRHtbk3bHDRrqCEaRYVhZR2Fa/oAADOQzH
+pFNCfei7hgUx0NqiCn+9vb7Ca8MWaO0SJTJolOhd6HXZVBIKh2nUzKq+fR60HFA5K5n18277+s31
+FXyaz2XvKpFJq7SvLZM1tVqPGH3QJbrOfFF9DvkWJGrjonwKt0B7NTGKUQcQfIISoKV8Buji+sG/
+RBPD7dBeI5d9Q7igsjh8qQuNjrI4LZ1vFuCdUXWAcG+Z0b5P/QZBJk8vMuTftDtzLzcBj3NFO0Mv
+f311gffpvH8h+xZa8kaBNxY3AWynLXxONBENwWC5QKAt0IetK1qxhwHVRAemEWF4db1FQGPQFmBH
+IACs0+77XA8P95GAh7qW+PuVo0kksNupIu9O5iSBdtnd2kAbkUOGycPw0SWkTyDjPQFRKZfQLUEC
+4UvlOHbaCQyEHgiInc011B7H7y51SceDCdaBRpHeCoMERo1SUOsnD7mdOO6VeCQgDChuWe9JRteS
+ae/0/5rU67VSAWwoif/UeR8WbgsBMoZ18UcN8NvtsN7X+RgULBXMkH08uktB1NPHHK4EB3unOzMx
+gmMorJyfwaeBLIFa0BwgKJPE5R6EY1QKMIfefc5IIWoBcn7z8jHoEYQYKYAG7dxDvAy6BaY08r44
+tDjFlcO/UExrl1bT0mifHAKV1atnEFgNv/yzmM8ohJtP6Es0vypEPsEe6aoxjMt9L+miLwKgVkc7
+bs/KUsxnwUURDfXdmHRa7Fyyujw/PdphWwwBIPNoWbA4+hZA39Wx4J5bmKxYHPnOQ/pyASkir4vz
+ctc/QAemI95S1iwQtjOU3o/WoZloPgQR68j3qrFInxQ27vds08cg7jr8c4fdUSBl692ysKcLTYMM
++36WS5gHG5N4g7pCOLYPKwCxofvSX/nk8U+IVlBR/0i8hwtiui5Dg5/MpU8Q8MIP8/qIlRzj1G8i
+YE2opUH6IPlzvRjrzQYderVmZmKQ7jptIwcdGI6jQV9vWNqr6G99p0PfIqArtPNZp5oM+XbxOOio
+3cX52WgBQmfmR5jqxFjG5cbvvlK7uzNqZmGJ3G99F8t19ep5FCvxvDCzB6UzVs5NfjkTTXVyl7ow
+i4gak34YcIjASdJdEDAWtJEcMSZJIZt+XoPQKL3b9oNw4DAS6qvFXEbKa9AV1kxBA/oqrFLKhAPe
+EEMhMoHV0O79vhr0uqTbFIaqBphQvTZIG4132s70+8uPt8nI+dPlM8PPvDNNxmOj7ZPH8Mc+uPyW
+8WW0ngzeC0sEAX6LhgNeiZTpQz7kQz6Eu8Anx0I+7/bmW/R4VJ+MIXhdv6Ca+PQWRQQ6sk/2ubY2
+V5fFumHUzU9+QbYbBi2lGBZmpKD0lbub6yXVJLJlM2bR4B6hjBy//BLK+5TlA6WvgEOCk4f9Hrbn
+oVwq4DGbSo5mL4/NZlGGzxV1CVmlXq04OojIdwMVs/35759XtLNg9Rw/Uy4WZAvz1ym/kRtZmPoa
+CXiRKEdcVr2seJw2Apr79pdxYSbo3aleXnAHKp8WAbE4+526cadc018Du9sc168h5wLK2pIaRpE5
+Odpc02tnxpEC0Ehgr1I+5UJfGQo9opOnkvHluSmqQ2CVXl9OKBGl9fiIN3dsrFC9oQ53OytKfGYF
+CQXv7NgwaRSdukJB9vfcl5Uyr+O9eH90KjYsot3Rn1stPodiYBR41dCe26BWUP2bdKp93y7fuzvg
+GG2mZfb+h5FgvcZ/ngQeBqO8STcHJyzfJAxqHl79H31XLn2yY1uPR/dljfjkGMX+UBS4EfRb/O/D
+dVU3JwXlfRjsc1ls68OVlYUjt+yVP6L1fyuUi/NyIhbGKCafF2oLe3FBP2QiUUzkiF+GoPzOrY8a
+yKWOQZKH65Z55ff3MM3GAxwIePhwXRRY9G/eLr+K8i/oySeJA7Neg9BSVnYBqtN4eBhty837C/j2
+1cU5Yu3jeGyQnhXzUnxys9FAHIGIEjHs3GB12TdGbn2YP1qWrFs7MwEbBCHvq8K62IitH9pzdSLx
+yS+RzpcEzxH1D9xFMNJWqLbAYSxGHVAQpco3Dt7dXKOK0CKy3mF7U70yLMwgvpP1GxCIuVY0SsRH
+XOLfQYJYDB0MgV5Enq+VMfG7HWh9nfIbTBIdCSNOs9noq1KCWTazB5M0aVUIMzfX9H01FvJJ8ZZo
+HYSWHcP/9pccIzITuFzQjFjIDwMfpJnjhNy3h30ICXwXfGC9dvcWHXkXwfuwvvdBQY3BKq+vLpmW
+SwX7ugF5po4OWWI8GuLIlC4rZZtpCYMv8hQfm4KlcEGBjypkUzQdqlGMicc1/Ne/60SKG+O+BKtE
+QOdxbsK9oBQg5+njBMYCzfRY0LuTiO0Dbkn1XfDbeyNDVMqnVAQosUe4X/hGNoNNP9STf1evRpzE
+hp83GzoEBt44J9rljgbqRBwaJUqhVyuc1lUpB1ioJzstq70TlSgUhpvb6yo6ocTpcZRF7rvx28J6
+5WEk2Lvzma9QjaFr7TqsqBaZKBkY8rZ17Zm+Ksb3drZAZuQIUjBKFrJpo0ZJWDBJq2mJnVPmK6Cy
+Qc/PGXjQZlg6qCCvSXgmtJpgUCvQRmSnOuWEY8NUKuQ4tpd4/QXmAyMCsyW3AyzYKReH3LXKA1NC
+0MGcDyjoZYVDh/+5YvX0hKAYEdO8MASAdqaTCV6hK1vlYSuY+AGG1uS3aRDOkC2RoC0QOhVzGY7n
+nhDl2dcMzL0jaEon43wNkyKLTv5Tf2+ZV1LJuBx3xJEfW12cu6ycy7rKw6V/vqf8PwplbmRzdHJl
+YW0KZW5kb2JqCnhyZWYKMCAxMwowMDAwMDAwMDAwIDY1NTM2IGYNCjAwMDAwMDAwMTUgMDAwMDAg
+bg0KMDAwMDAwMDEyNCAwMDAwMCBuDQowMDAwMDAwMTgzIDAwMDAwIG4NCjAwMDAwMDAyOTMgMDAw
+MDAgbg0KMDAwMDAwMDUwNCAwMDAwMCBuDQowMDAwMDAyNDE4IDAwMDAwIG4NCjAwMDAwMDI1ODUg
+MDAwMDAgbg0KMDAwMDAwMzAxOCAwMDAwMCBuDQowMDAwMDAzMjIwIDAwMDAwIG4NCjAwMDAwMDMz
+ODQgMDAwMDAgbg0KMDAwMDAwMzk0MCAwMDAwMCBuDQowMDAwMDA0MTM0IDAwMDAwIG4NCnRyYWls
+ZXIKPDwgL1NpemUgMTMKL1Jvb3QgMSAwIFIKL0luZm8gMyAwIFIKPj4Kc3RhcnR4cmVmCjEwNDk4
+CiUlRU9GCg==
+</Attachment>
+        </Allegati>
+    </FatturaElettronicaBody>
+</FatturaElettronica>

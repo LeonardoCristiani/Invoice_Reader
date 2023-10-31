@@ -1,0 +1,39 @@
+version: '3.7'
+services:
+  mysqlservice:
+    image: mysql:5.7
+    ports:
+      - 3310:3306
+    restart: always
+    environment:
+      MYSQL_DATABASE: progettoFinale
+      MYSQL_PASSWORD: root
+      MYSQL_ROOT_PASSWORD: root
+    volumes:
+      - db-data:/var/lib/mysql
+    networks:
+      - backend
+    expose:
+      - 3310
+#  progetto-finale:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    ports:
+#      - 8888:8888
+#    restart: always
+#    depends_on:
+#      - mysqlservice
+#    environment:
+#      SERVER_PORT : 8888
+#      DB_URL: jdbc:mysql://mysqlservice:3310/progettoFinale?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+#      DB_USERNAME: root
+#      DB_PASSWORD: root
+#    networks:
+#      - backend
+# Volumes
+volumes:
+  db-data:
+# Networks to be created to facilitate communication between containers
+networks:
+  backend:

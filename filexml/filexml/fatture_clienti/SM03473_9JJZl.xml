@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
+<p:FatturaElettronica
+  versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>SM</IdPaese>
+        <IdCodice>03473</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>1/1278</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>0000000</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>11039060154</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>11039060154</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>STUDIO MULIARI COMMERCIALISTI ASSOCIATI</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>V.LE RIMEMBRANZE 21/7</Indirizzo>
+        <CAP>20045</CAP>
+        <Comune>LAINATE</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Telefono>0236541838</Telefono>
+        <Email>studiomuliari@legalmail.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>07633540963</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>07633540963</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>SERVIZI GENERALI INFORMATICI SOCIETA' COOPERATIVA</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>C.SO BUENOS AIRES 47</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>SM</IdPaese>
+          <IdCodice>03473</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Passepartout S.p.A</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD06</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-07-24</Data>
+        <Numero>1/1278</Numero>
+        <DatiRitenuta>
+          <TipoRitenuta>RT02</TipoRitenuta>
+          <ImportoRitenuta>30.00</ImportoRitenuta>
+          <AliquotaRitenuta>20.00</AliquotaRitenuta>
+          <CausalePagamento>A</CausalePagamento>
+        </DatiRitenuta>
+        <DatiBollo>
+          <BolloVirtuale>SI</BolloVirtuale>
+          <ImportoBollo>           2.00</ImportoBollo>
+        </DatiBollo>
+        <DatiCassaPrevidenziale>
+          <TipoCassa>TC02</TipoCassa>
+          <AlCassa>  4.00</AlCassa>
+          <ImportoContributoCassa>           6.00</ImportoContributoCassa>
+          <ImponibileCassa>         150.00</ImponibileCassa>
+          <AliquotaIVA>22.00</AliquotaIVA>
+        </DatiCassaPrevidenziale>
+        <ImportoTotaleDocumento>         345.32</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>PROPRIETARIO</CodiceTipo>
+          <CodiceValore>*</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>................................
+                                                                                                                                                                       
+</Descrizione>
+        <Quantita>             1.000000</Quantita>
+        <UnitaMisura>ac</UnitaMisura>
+        <PrezzoUnitario>           130.000000</PrezzoUnitario>
+        <PrezzoTotale>               130.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>PRATICA CCIAA PER NOMINA AMMINISTRATORI</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>DELEGATI E CONFERMA POTERI</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>INOLTRO TELEMATICO PER ISCRIZIONE AL</RiferimentoTesto>
+        </AltriDatiGestionali>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>REGISTRO IMPRESE</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <CodiceArticolo>
+          <CodiceTipo>PROPRIETARIO</CodiceTipo>
+          <CodiceValore>*</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>................................
+                                                                                                                                                                       
+</Descrizione>
+        <Quantita>             1.000000</Quantita>
+        <UnitaMisura>ac</UnitaMisura>
+        <PrezzoUnitario>            20.000000</PrezzoUnitario>
+        <PrezzoTotale>                20.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <Ritenuta>SI</Ritenuta>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>VISURA</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <TipoCessionePrestazione>AC</TipoCessionePrestazione>
+        <CodiceArticolo>
+          <CodiceTipo>PROPRIETARIO</CodiceTipo>
+          <CodiceValore>11</CodiceValore>
+        </CodiceArticolo>
+        <Descrizione>DIRITTI
+                                                                                                                                                                                                
+</Descrizione>
+        <Quantita>             1.000000</Quantita>
+        <UnitaMisura>ac</UnitaMisura>
+        <PrezzoUnitario>           155.000000</PrezzoUnitario>
+        <PrezzoTotale>               155.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+        <AltriDatiGestionali>
+          <TipoDato>NOTA</TipoDato>
+          <RiferimentoTesto>preavviso 29596</RiferimentoTesto>
+        </AltriDatiGestionali>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>156.00         </ImponibileImporto>
+        <Imposta>34.32          </Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N1</Natura>
+        <ImponibileImporto>155.00         </ImponibileImporto>
+        <Imposta>0.00           </Imposta>
+        <RiferimentoNormativo>operazione esclusa 15) 633/72</RiferimentoNormativo>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2023-07-24</DataScadenzaPagamento>
+        <ImportoPagamento>315.32</ImportoPagamento>
+        <IstitutoFinanziario>BANCO BPM DI LAINATE</IstitutoFinanziario>
+        <IBAN>IT68T0503433223000000003836</IBAN>
+        <ABI>05034</ABI>
+        <CAB>33223</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</p:FatturaElettronica>

@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>01879020517</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>62</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>01991350859</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>01991350859</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>Kibitzer srl</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Viale Trieste </Indirizzo>
+        <NumeroCivico>131/O</NumeroCivico>
+        <CAP>93100</CAP>
+        <Comune>Caltanissetta</Comune>
+        <Provincia>CL</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>CL</Ufficio>
+        <NumeroREA>112705</NumeroREA>
+        <CapitaleSociale>130000.00</CapitaleSociale>
+        <SocioUnico>SM</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <Contatti>
+        <Telefono>3497321518</Telefono>
+        <Email>kibitzer@pec.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>10678380154</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>10678380154</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>DINAMICA SRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>CORSO BUENOS AIRES, 47</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-08-31</Data>
+        <Numero>FPR 62/23</Numero>
+        <ImportoTotaleDocumento>7930.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Consulenza e sviluppo software (risorsa middle AR agosto 2023)</Descrizione>
+        <Quantita>13.00</Quantita>
+        <PrezzoUnitario>200.00</PrezzoUnitario>
+        <PrezzoTotale>2600.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>Consulenza e sviluppo software (risorsa middle VS agosto 2023)</Descrizione>
+        <Quantita>13.00</Quantita>
+        <PrezzoUnitario>200.00</PrezzoUnitario>
+        <PrezzoTotale>2600.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>Consulenza e sviluppo software (risorsa middle MB agosto 2023)</Descrizione>
+        <Quantita>6.50</Quantita>
+        <PrezzoUnitario>200.00</PrezzoUnitario>
+        <PrezzoTotale>1300.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>6500.00</ImponibileImporto>
+        <Imposta>1430.00</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2023-10-31</DataScadenzaPagamento>
+        <ImportoPagamento>7930.00</ImportoPagamento>
+        <IstitutoFinanziario>BCC G. TONIOLO DI SAN CATALDO</IstitutoFinanziario>
+        <IBAN>IT64E0895283420000000019451</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

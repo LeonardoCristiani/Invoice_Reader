@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79393</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>HUE516M</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10678380154</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10678380154</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DINAMICA SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES, N. 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@dinamica-si.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>05724831002</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>00967720285</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ENGINEERING INGEGNERIA INFORMATICA SPA</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA S. MARTINO DELLA BATTAGLIA 56</Indirizzo>
+				<CAP>00185</CAP>
+				<Comune>ROMA</Comune>
+				<Provincia>RM</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-13</Data>
+				<Numero>FT/507</Numero>
+				<ImportoTotaleDocumento>4670.25</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+			<DatiOrdineAcquisto>
+				<RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+				<IdDocumento>E/390280</IdDocumento>
+				<Data>2023-03-28</Data>
+			</DatiOrdineAcquisto>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>CONONE MESE DI LUGLIO 2023
+
+BO 2023331207</Descrizione>
+				<PrezzoUnitario>3828.07</PrezzoUnitario>
+				<PrezzoTotale>3828.07</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<RiferimentoAmministrazione>BAF 861831</RiferimentoAmministrazione>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>3828.07</ImponibileImporto>
+				<Imposta>842.18</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-13</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>140</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2024-01-31</DataScadenzaPagamento>
+				<ImportoPagamento>4670.25</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT35C0608510303000000031404</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

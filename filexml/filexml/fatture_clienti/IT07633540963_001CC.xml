@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>74529</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>12857620152</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>STAGGM57P18G220S</CodiceFiscale>
+				<Anagrafica>
+					<Nome>GIORGIO MARIA</Nome>
+					<Cognome>ASTI</Cognome>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA ACHILLE FERABOLI 17</Indirizzo>
+				<CAP>20142</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>07633540963</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>07633540963</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>SERVIZI GENERALI INFORMATICI SOC. COOP.</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES N° 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD16</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-03-31</Data>
+				<Numero>3/C6</Numero>
+				<ImportoTotaleDocumento>378.20</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+			<DatiFattureCollegate>
+				<IdDocumento>9351259911</IdDocumento>
+			</DatiFattureCollegate>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>Documento integrativo reverse-charge Art.17, c.6 - Servizi</Descrizione>
+				<PrezzoUnitario>310.00</PrezzoUnitario>
+				<PrezzoTotale>310.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<Natura>N6.7</Natura>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<Natura>N6.7</Natura>
+				<ImponibileImporto>310.00</ImponibileImporto>
+				<Imposta>68.20</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - PRESTAZIONI ART.17 C.6 LETT.a-ter</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

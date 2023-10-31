@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.xsl"?>
+<p:FatturaElettronica versione="FPR12" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<FatturaElettronicaHeader>
+<DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>05262890014</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>E23343677</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+<ContattiTrasmittente>
+</ContattiTrasmittente>
+</DatiTrasmissione>
+<CedentePrestatore>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>09429840151</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>01014660417</CodiceFiscale>
+<Anagrafica>
+<Denominazione>EDENRED ITALIA Srl</Denominazione>
+</Anagrafica>
+<RegimeFiscale>RF01</RegimeFiscale>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>VIA PIRELLI 18</Indirizzo>
+<CAP>20124</CAP>
+<Comune>MILANO</Comune>
+<Provincia>MI</Provincia>
+<Nazione>IT</Nazione>
+</Sede>
+<Contatti>
+</Contatti>
+</CedentePrestatore>
+<CessionarioCommittente>
+<DatiAnagrafici>
+<IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>07633540963</IdCodice></IdFiscaleIVA>
+<Anagrafica>
+<Denominazione>S.G.I. SERVIZI GENERALI INFORMATICI SOC COOP</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+<Sede>
+<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+<CAP>20124</CAP>
+<Comune>MILANO</Comune>
+<Nazione>IT</Nazione>
+</Sede>
+</CessionarioCommittente>
+</FatturaElettronicaHeader>
+<FatturaElettronicaBody>
+<DatiGenerali>
+<DatiGeneraliDocumento>
+<TipoDocumento>TD01</TipoDocumento>
+<Divisa>EUR</Divisa>
+<Data>2023-06-23</Data>
+<Numero>343677</Numero>
+<ImportoTotaleDocumento>239.20</ImportoTotaleDocumento>
+</DatiGeneraliDocumento>
+<DatiContratto>
+<RiferimentoNumeroLinea>1</RiferimentoNumeroLinea>
+<IdDocumento>635375/10222020</IdDocumento>
+<Data>2020-10-22</Data>
+</DatiContratto>
+</DatiGenerali>
+<DatiBeniServizi>
+<DettaglioLinee>
+<NumeroLinea>1</NumeroLinea>
+<Descrizione>SERVIZI GENERALI INFORMATICI SOC. COOP.-SEDE BUONI PASTO TRS      0001-0001        6767884    50    5,00    250,00 Progressivo Buoni da: 00001 a: 00050</Descrizione>
+<Quantita>50.00</Quantita>
+<PrezzoUnitario>5.00</PrezzoUnitario>
+<PrezzoTotale>250.00</PrezzoTotale>
+<AliquotaIVA>4.00</AliquotaIVA>
+</DettaglioLinee>
+<DettaglioLinee>
+<NumeroLinea>4</NumeroLinea>
+<TipoCessionePrestazione>SC</TipoCessionePrestazione>
+<Descrizione>SCONTO                  8,00% SU     250,00                     20,00-</Descrizione><PrezzoUnitario>-20.00</PrezzoUnitario>
+<PrezzoTotale>-20.00</PrezzoTotale><AliquotaIVA>4.00</AliquotaIVA>
+</DettaglioLinee>
+<DatiRiepilogo>
+<AliquotaIVA>4.00</AliquotaIVA>
+<ImponibileImporto>230.00</ImponibileImporto>
+<Imposta>9.20</Imposta>
+<EsigibilitaIVA>I</EsigibilitaIVA>
+</DatiRiepilogo>
+</DatiBeniServizi>
+<DatiPagamento>
+<CondizioniPagamento>TP02</CondizioniPagamento>
+<DettaglioPagamento>
+<ModalitaPagamento>MP05</ModalitaPagamento>
+<DataRiferimentoTerminiPagamento>2023-06-23</DataRiferimentoTerminiPagamento>
+<GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+<ImportoPagamento>239.20</ImportoPagamento>
+<IBAN>IT28T0333201600000001112420</IBAN>
+</DettaglioPagamento>
+</DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>

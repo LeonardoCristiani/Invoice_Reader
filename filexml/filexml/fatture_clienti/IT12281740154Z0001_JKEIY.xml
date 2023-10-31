@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<b:FatturaElettronica xmlns:b="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+  <FatturaElettronicaHeader>
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>12281740154</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>1JKEIY</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Email>fatturapa@documi.it</Email>
+      </ContattiTrasmittente>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03574990135</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>MRNSLA78C05Z611F</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>PULISERVICE DI MORENO ROMERO SAUL</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA S. CATERINA DA SIENA 38/D</Indirizzo>
+        <CAP>22066</CAP>
+        <Comune>MARIANO COMENSE</Comune>
+        <Provincia>CO</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03860890965</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>ANT  SRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>C.so Buenos Aires,47</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+    <TerzoIntermediarioOSoggettoEmittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>12281740154</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>DocuMI s.r.l.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+    </TerzoIntermediarioOSoggettoEmittente>
+    <SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody>
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-09-30</Data>
+        <Numero>000199-2023</Numero>
+        <ImportoTotaleDocumento>350.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>SERVIZIO DI PULIZIA EFFETTUATO PER VOSTRO CONTO NEL MESE DI SETTEMBRE</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>350.00</PrezzoUnitario>
+        <PrezzoTotale>350.00</PrezzoTotale>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N6.7</Natura>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>0.00</AliquotaIVA>
+        <Natura>N6.7</Natura>
+        <ImponibileImporto>350.00</ImponibileImporto>
+        <Imposta>0.00</Imposta>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <ImportoPagamento>350.00</ImportoPagamento>
+        <IstitutoFinanziario>INTESA SANPAOLO</IstitutoFinanziario>
+        <IBAN>IT21H0306951500100000003877</IBAN>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</b:FatturaElettronica>

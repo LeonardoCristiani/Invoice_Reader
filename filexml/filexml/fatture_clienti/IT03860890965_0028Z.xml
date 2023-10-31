@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79862</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>M5UXCR1</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>04399510967</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>04399510967</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>EDUTEAM SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA BOLAMA 15</Indirizzo>
+				<CAP>20126</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-27</Data>
+				<Numero>FT/283</Numero>
+				<ImportoTotaleDocumento>1098.00</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>ATTIVITA&apos; DI DOCENZA RELATIVA AL CORSO
+
+&quot;CORSO EXCEL&quot;(ID EDIZIONE: 57615)
+
+NELL&apos;AMBITO DELL&apos; AVVISO PUBBLICO PER
+
+L&apos; ATTUAZIONE DI MISURE DI FORMAZIONE
+
+CONTINUA - PR FSE + 2021-2027 -
+
+C/O VS. CLIENTE VETRERIA PESCINI SRL
+
+N. 16 ORE EURO/ORA 56,25</Descrizione>
+				<PrezzoUnitario>900.00</PrezzoUnitario>
+				<PrezzoTotale>900.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>900.00</ImponibileImporto>
+				<Imposta>198.00</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-27</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>34</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-10-31</DataScadenzaPagamento>
+				<ImportoPagamento>1098.00</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT53N0608510303000000033036</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

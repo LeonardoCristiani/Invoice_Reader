@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<FatturaElettronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>10209790152</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>3507</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>09619730014</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>09619730014</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>I.E.C. SRL CON UNICO SOCIO</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA G. MACAGGI</Indirizzo>
+        <NumeroCivico>23/20</NumeroCivico>
+        <CAP>16121</CAP>
+        <Comune>Genova</Comune>
+        <Provincia>GE</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti>
+        <Telefono>010561361</Telefono>
+        <Email>info@italiaiec.it</Email>
+      </Contatti>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03860890965</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>03860890965</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>ANT s.r.l.</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Corso Buenos Aires,</Indirizzo>
+        <NumeroCivico>47</NumeroCivico>
+        <CAP>20124</CAP>
+        <Comune>Milano</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-09-08</Data>
+        <Numero>255/E</Numero>
+        <ImportoTotaleDocumento>1952.00</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>Verifica Ispettiva ISO 9001</Descrizione>
+        <PrezzoUnitario>1600.00</PrezzoUnitario>
+        <PrezzoTotale>1600.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>1600.00</ImponibileImporto>
+        <Imposta>352.00</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataScadenzaPagamento>2023-09-08</DataScadenzaPagamento>
+        <ImportoPagamento>1952.00</ImportoPagamento>
+        <IstitutoFinanziario>UNICREDIT SPA</IstitutoFinanziario>
+        <IBAN>IT22G0200801411000040941645</IBAN>
+        <ABI>02008</ABI>
+        <CAB>01411</CAB>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

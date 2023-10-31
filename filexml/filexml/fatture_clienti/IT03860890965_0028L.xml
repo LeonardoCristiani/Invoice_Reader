@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79544</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>CN</IdPaese>
+					<IdCodice>DE323484794</IdCodice>
+				</IdFiscaleIVA>
+				<Anagrafica>
+					<Denominazione>SHENZENSHIHUAXINYUSHENGKEJI YOUXIANGONGSI</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF18</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>SHENZEN</Indirizzo>
+				<CAP>00000</CAP>
+				<Comune>GUANGDONG 518000</Comune>
+				<Provincia>EE</Provincia>
+				<Nazione>CN</Nazione>
+			</Sede>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD19</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-19</Data>
+				<Numero>24/AFX</Numero>
+				<ImportoTotaleDocumento>27.97</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+			<DatiFattureCollegate>
+				<IdDocumento>179941591-2023-4544</IdDocumento>
+				<Data>2023-09-02</Data>
+			</DatiFattureCollegate>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>Autofattura Art.17, c.2 DPR 633/72 - Beni</Descrizione>
+				<PrezzoUnitario>22.93</PrezzoUnitario>
+				<PrezzoTotale>22.93</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>22.93</ImponibileImporto>
+				<Imposta>5.04</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - ACQUISTO DI BENI FUORI UE GIA&apos; PRESENTI IN ITALIA - ART.17 C.2</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

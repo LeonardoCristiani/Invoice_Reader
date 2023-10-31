@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>80143</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>Z12E0DM</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10157590018</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10157590018</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>EUROPEAN SCHOOL OF PROJECT MANAGEMENT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF17</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Fax>0242108916</Fax>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>07660800017</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>07660800017</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>MANEAT SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA VITTORIO ALFIERI 17</Indirizzo>
+				<CAP>10121</CAP>
+				<Comune>TORINO</Comune>
+				<Provincia>TO</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-30</Data>
+				<Numero>FT/190</Numero>
+				<ImportoTotaleDocumento>3408.38</ImportoTotaleDocumento>
+				<Causale>Ft ex art.32-bis DL 83/2012 MANEAT SRL</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>CONSULENZA</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>SERVIZI DI CONSULENZA INFORMATICA IN
+
+AMBITO ICT
+
+MESE DI SETTEMBRE 2023
+
+ORDINE:DGS-ODA0000272
+
+COMMESSA MAN_P000113
+
+BENESTARE. DGS-001254</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<UnitaMisura>N.</UnitaMisura>
+				<PrezzoUnitario>2793.75</PrezzoUnitario>
+				<PrezzoTotale>2793.75</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>2793.75</ImponibileImporto>
+				<Imposta>614.63</Imposta>
+				<EsigibilitaIVA>D</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-30</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>92</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-12-31</DataScadenzaPagamento>
+				<ImportoPagamento>3408.38</ImportoPagamento>
+				<IstitutoFinanziario>BANCA SELLA SPA</IstitutoFinanziario>
+				<IBAN>IT83Q0326822300052869612620</IBAN>
+				<ABI>03268</ABI>
+				<CAB>22300</CAB>
+				<BIC>SELBIT2BXXX</BIC>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

@@ -1,0 +1,220 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<ns3:FatturaElettronica xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>04228480408</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>1</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>USAL8PV</CodiceDestinatario><ContattiTrasmittente />
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>09857220157</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>CRSGRL67M56F205M</CodiceFiscale>
+                <Anagrafica>
+                    <Nome>GABRIELLA</Nome>
+                    <Cognome>CARUSO</Cognome>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>CORSO DI PORTA VITTORIA 54</Indirizzo>
+                <CAP>20122</CAP>
+                <Comune>MILANO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+            <Contatti>
+                <Email>gcaruso@studiocaruso.eu</Email>
+            </Contatti>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>07633540963</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>07633540963</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>SERVIZI GENERALI INFORMATICI Soc. Coop.</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+                <CAP>20124</CAP>
+                <Comune>MILANO</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            
+        <DatiAnagrafici><IdFiscaleIVA><IdPaese>IT</IdPaese><IdCodice>04228480408</IdCodice></IdFiscaleIVA><Anagrafica><Denominazione>BLUENEXT SRL</Denominazione></Anagrafica></DatiAnagrafici></TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD06</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2023-07-13</Data>
+                <Numero>21</Numero>
+                <DatiRitenuta>
+                    <TipoRitenuta>RT01</TipoRitenuta>
+                    <ImportoRitenuta>1040.00</ImportoRitenuta>
+                    <AliquotaRitenuta>20.00</AliquotaRitenuta>
+                    <CausalePagamento>A</CausalePagamento>
+                </DatiRitenuta>
+                <DatiCassaPrevidenziale>
+                    <TipoCassa>TC06</TipoCassa>
+                    <AlCassa>4.00</AlCassa>
+                    <ImportoContributoCassa>208.00</ImportoContributoCassa>
+                    <ImponibileCassa>5200.00</ImponibileCassa>
+                    <AliquotaIVA>22.00</AliquotaIVA>
+                </DatiCassaPrevidenziale>
+                <ImportoTotaleDocumento>6597.76</ImportoTotaleDocumento>
+                <Causale>Parcella del 13/07/2023 N.ro 21</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>Compensi funzione Membro Collegio Sindacale - Verifiche</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>1250.00000</PrezzoUnitario>
+                <PrezzoTotale>1250.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>2</NumeroLinea>
+                <Descrizione>Compensi funzione Membro Collegio Sindacale - Bilancio</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>1250.00000</PrezzoUnitario>
+                <PrezzoTotale>1250.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>3</NumeroLinea>
+                <Descrizione>Verifiche sindacali aggiuntive n. 4</Descrizione>
+                <Quantita>4.00000</Quantita>
+                <PrezzoUnitario>300.00000</PrezzoUnitario>
+                <PrezzoTotale>1200.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>4</NumeroLinea>
+                <Descrizione>Assemblee soci aggiuntive n. 2</Descrizione>
+                <Quantita>2.00000</Quantita>
+                <PrezzoUnitario>300.00000</PrezzoUnitario>
+                <PrezzoTotale>600.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>5</NumeroLinea>
+                <Descrizione>CdA aggiuntivo per accettazione soci</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>300.00000</PrezzoUnitario>
+                <PrezzoTotale>300.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>6</NumeroLinea>
+                <Descrizione>CdA aggiuntivo per ulteriore approvazione bozza bilancio</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>300.00000</PrezzoUnitario>
+                <PrezzoTotale>300.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>7</NumeroLinea>
+                <Descrizione>Adunanza aggiuntiva per nuova relazione Collegio</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>300.00000</PrezzoUnitario>
+                <PrezzoTotale>300.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <Ritenuta>SI</Ritenuta>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCassPre</TipoDato>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DettaglioLinee>
+                <NumeroLinea>8</NumeroLinea>
+                <Descrizione>Riga ausiliaria contenente informazioni tecniche e aggiuntive del documento</Descrizione>
+                <Quantita>1.00000</Quantita>
+                <PrezzoUnitario>0.00</PrezzoUnitario>
+                <PrezzoTotale>0.00</PrezzoTotale>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTRiga</TipoDato>
+                    <RiferimentoTesto>Informazioni documento #ID#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoDoc</TipoDato>
+                    <RiferimentoTesto>Parcella #TPD51#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswCarDoc</TipoDato>
+                    <RiferimentoTesto>Parcella immediata #CD51#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswRelStd</TipoDato>
+                    <RiferimentoTesto>Versione #Asw0103#</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswSwHouse</TipoDato>
+                    <RiferimentoTesto>Bluenext Srl / Fatture Online / versione 3.14.27.9</RiferimentoTesto>
+                </AltriDatiGestionali>
+                <AltriDatiGestionali>
+                    <TipoDato>AswTipoPag</TipoDato>
+                    <RiferimentoTesto>Bonifico bancario #TP06#</RiferimentoTesto>
+                    <RiferimentoNumero>1.00</RiferimentoNumero>
+                </AltriDatiGestionali>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>22.00</AliquotaIVA>
+                <ImponibileImporto>5408.00</ImponibileImporto>
+                <Imposta>1189.76</Imposta>
+                <EsigibilitaIVA>I</EsigibilitaIVA>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2023-07-13</DataScadenzaPagamento>
+                <ImportoPagamento>5557.76</ImportoPagamento>
+                <IBAN>IT14I0306909686100000003261</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+</ns3:FatturaElettronica>

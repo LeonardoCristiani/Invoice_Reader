@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="fatturapa_v1.2.1.xsl"?>
+<FatturaElettronica xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+<IdTrasmittente>
+<IdPaese>IT</IdPaese>
+<IdCodice>06628860964</IdCodice>
+</IdTrasmittente>
+<ProgressivoInvio>2130690377</ProgressivoInvio>
+<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+</DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03638810287</IdCodice>
+        </IdFiscaleIVA>
+        <CodiceFiscale>CHNPNG74R23Z210N</CodiceFiscale>
+        <Anagrafica>
+          <Denominazione>CHEN PEIFENG</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>VIA SCARLATTI 7</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <Contatti />
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>03860890965</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>ANT SRL</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente><TerzoIntermediarioOSoggettoEmittente>
+<DatiAnagrafici>
+<IdFiscaleIVA>
+<IdPaese>IT</IdPaese>
+<IdCodice>06628860964</IdCodice>
+</IdFiscaleIVA>
+<CodiceFiscale>06628860964</CodiceFiscale>
+<Anagrafica>
+<Denominazione>PA DIGITALE S.P.A.</Denominazione>
+</Anagrafica>
+</DatiAnagrafici>
+</TerzoIntermediarioOSoggettoEmittente><SoggettoEmittente>TZ</SoggettoEmittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-09-18</Data>
+        <Numero>594/B</Numero>
+        <ImportoTotaleDocumento>59.90</ImportoTotaleDocumento>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>COPERTO</Descrizione>
+        <Quantita>3.00</Quantita>
+        <PrezzoUnitario>1.81666667</PrezzoUnitario>
+        <PrezzoTotale>5.45</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>2</NumeroLinea>
+        <Descrizione>1/2. ACQUA</Descrizione>
+        <Quantita>4.00</Quantita>
+        <PrezzoUnitario>1.45500000</PrezzoUnitario>
+        <PrezzoTotale>5.82</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>3</NumeroLinea>
+        <Descrizione>INS. NAPOLI</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>6.82000000</PrezzoUnitario>
+        <PrezzoTotale>6.82</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>4</NumeroLinea>
+        <Descrizione>INSALATASSIMA</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>7.73000000</PrezzoUnitario>
+        <PrezzoTotale>7.73</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>5</NumeroLinea>
+        <Descrizione>TAGLIATA KITCHEN</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>16.36000000</PrezzoUnitario>
+        <PrezzoTotale>16.36</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DettaglioLinee>
+        <NumeroLinea>6</NumeroLinea>
+        <Descrizione>MEN COMPLETO</Descrizione>
+        <Quantita>1.00</Quantita>
+        <PrezzoUnitario>12.27000000</PrezzoUnitario>
+        <PrezzoTotale>12.27</PrezzoTotale>
+        <AliquotaIVA>10.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>10.00</AliquotaIVA>
+        <Arrotondamento>0.00</Arrotondamento>
+        <ImponibileImporto>54.45</ImponibileImporto>
+        <Imposta>5.45</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP01</ModalitaPagamento>
+        <ImportoPagamento>59.90</ImportoPagamento>
+      </DettaglioPagamento>
+    </DatiPagamento>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

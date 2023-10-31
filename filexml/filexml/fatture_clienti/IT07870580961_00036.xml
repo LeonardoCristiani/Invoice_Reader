@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>77773</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>07870580961</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>07870580961</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DINAMICA SERVICE SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>07633540963</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>07633540963</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>SERVIZI GENERALI INFORMATICI SOC. COOP.</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES N° 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-06-30</Data>
+				<Numero>33</Numero>
+				<ImportoTotaleDocumento>58560.00</ImportoTotaleDocumento>
+				<Causale>Ft ex art.32-bis DL 83/2012 SERVIZI GENERALI INFORMATICI SOC. COOP.</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>ATTIVITA&apos; DI CONSULENZA INFORMATICA MESE DI GIUGNO 2023</Descrizione>
+				<PrezzoUnitario>48000.00</PrezzoUnitario>
+				<PrezzoTotale>48000.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>48000.00</ImponibileImporto>
+				<Imposta>10560.00</Imposta>
+				<EsigibilitaIVA>D</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-06-30</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>31</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-07-31</DataScadenzaPagamento>
+				<ImportoPagamento>58560.00</ImportoPagamento>
+				<IstitutoFinanziario>BANCO BPM S.P.A.</IstitutoFinanziario>
+				<IBAN>IT59O0503401691000000003018</IBAN>
+				<ABI>05034</ABI>
+				<CAB>01691</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

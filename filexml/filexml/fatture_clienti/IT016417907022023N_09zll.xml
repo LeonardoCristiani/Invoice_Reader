@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?><ns3:FatturaElettronica xmlns:ns3="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" versione="FPR12">
+    <FatturaElettronicaHeader>
+        <DatiTrasmissione>
+            <IdTrasmittente>
+                <IdPaese>IT</IdPaese>
+                <IdCodice>01641790702</IdCodice>
+            </IdTrasmittente>
+            <ProgressivoInvio>00002ygte5</ProgressivoInvio>
+            <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+            <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+            <ContattiTrasmittente>
+                <Telefono>0874-60561</Telefono>
+            </ContattiTrasmittente>
+        </DatiTrasmissione>
+        <CedentePrestatore>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>12857620152</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>STAGGM57P18G220S</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>Gma di Asti Giorgio</Denominazione>
+                </Anagrafica>
+                <RegimeFiscale>RF01</RegimeFiscale>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>via Achille Feraboli 17</Indirizzo>
+                <CAP>20142</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CedentePrestatore>
+        <CessionarioCommittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>03860890965</IdCodice>
+                </IdFiscaleIVA>
+                <Anagrafica>
+                    <Denominazione>ANT Srl</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+            <Sede>
+                <Indirizzo>Corso Buenos Aires 47</Indirizzo>
+                <CAP>20124</CAP>
+                <Comune>Milano</Comune>
+                <Provincia>MI</Provincia>
+                <Nazione>IT</Nazione>
+            </Sede>
+        </CessionarioCommittente>
+        <TerzoIntermediarioOSoggettoEmittente>
+            <DatiAnagrafici>
+                <IdFiscaleIVA>
+                    <IdPaese>IT</IdPaese>
+                    <IdCodice>01641790702</IdCodice>
+                </IdFiscaleIVA>
+                <CodiceFiscale>01641790702</CodiceFiscale>
+                <Anagrafica>
+                    <Denominazione>TEAMSYSTEM SERVICE SRL</Denominazione>
+                </Anagrafica>
+            </DatiAnagrafici>
+        </TerzoIntermediarioOSoggettoEmittente>
+        <SoggettoEmittente>TZ</SoggettoEmittente>
+    </FatturaElettronicaHeader>
+    <FatturaElettronicaBody>
+        <DatiGenerali>
+            <DatiGeneraliDocumento>
+                <TipoDocumento>TD01</TipoDocumento>
+                <Divisa>EUR</Divisa>
+                <Data>2023-09-29</Data>
+                <Numero>35</Numero>
+                <ImportoTotaleDocumento>170.00</ImportoTotaleDocumento>
+                <Causale>INTERVENTO MANUTENZIONE</Causale>
+            </DatiGeneraliDocumento>
+        </DatiGenerali>
+        <DatiBeniServizi>
+            <DettaglioLinee>
+                <NumeroLinea>1</NumeroLinea>
+                <Descrizione>MANUTENZIONE // traslocco mobili vostri uffici siti al secondo piano, spostamento documentazione cartacea in archivio al piano -1</Descrizione>
+                <Quantita>1.00</Quantita>
+                <PrezzoUnitario>170.00</PrezzoUnitario>
+                <PrezzoTotale>170.00</PrezzoTotale>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N6.7</Natura>
+            </DettaglioLinee>
+            <DatiRiepilogo>
+                <AliquotaIVA>0.00</AliquotaIVA>
+                <Natura>N6.7</Natura>
+                <ImponibileImporto>170.00</ImponibileImporto>
+                <Imposta>0.00</Imposta>
+                <RiferimentoNormativo>Rev. charge art.17</RiferimentoNormativo>
+            </DatiRiepilogo>
+        </DatiBeniServizi>
+        <DatiPagamento>
+            <CondizioniPagamento>TP02</CondizioniPagamento>
+            <DettaglioPagamento>
+                <Beneficiario>Gma di Asti Giorgio</Beneficiario>
+                <ModalitaPagamento>MP05</ModalitaPagamento>
+                <DataScadenzaPagamento>2023-10-02</DataScadenzaPagamento>
+                <ImportoPagamento>170.00</ImportoPagamento>
+                <IstitutoFinanziario>BANCA SELLA</IstitutoFinanziario>
+                <IBAN>IT04Q0326801603052589882780</IBAN>
+            </DettaglioPagamento>
+        </DatiPagamento>
+    </FatturaElettronicaBody>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-d93fa17c6609afa83ee6634c849eaefb"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2002/06/xmldsig-filter2"><dsig-xpath:XPath xmlns:dsig-xpath="http://www.w3.org/2002/06/xmldsig-filter2" Filter="subtract">/descendant::ds:Signature</dsig-xpath:XPath></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XTwv7LMPmVcl8xZe2j9lkxJIzI/X/HCixEkxJSqwldo=</ds:DigestValue></ds:Reference><ds:Reference URI="#keyinfo-id-d93fa17c6609afa83ee6634c849eaefb"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>F9oKKO1aJsm6hZmklr9AQR2uar6mLQm0pUXosZ7Ej5o=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d93fa17c6609afa83ee6634c849eaefb"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2rCnkTwqWQfV3Z4VYL/mqo47ZSSD+Yd8J29U7TOoS2c=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d93fa17c6609afa83ee6634c849eaefb">pcvhj20az0NisgZuiem54+7BndJ76rdh/OhvvUlPCyCKTitKUULLdFmc0UHzTu9wslNl0E8bmcmH9dtO3wIErOT6sRyoOZ0PccCG8SxS//esTor5pxtw+Z8ej3/gVTeQLi43yjZzuzSvn9jMBjyTYu3+hg/j7Ix6Js3syyRGvLU1KOp05Uw4Rhheb2dn/7Bz0gXKIzhoX/MohbnZfAMLL2I/bvOjPw1QLx7n7ELXGEJFFUGE3p0smxNgt+dTeDZpSnElkT3yHTVYj/RynwAQXuPaHGQdMz2xfCAQ5vgqW9T5xOD7xCcneuy6mEpj64vJ2gf35n1caXJxVKCvPzG0zg==</ds:SignatureValue><ds:KeyInfo Id="keyinfo-id-d93fa17c6609afa83ee6634c849eaefb"><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d93fa17c6609afa83ee6634c849eaefb"><xades:SignedProperties Id="xades-id-d93fa17c6609afa83ee6634c849eaefb"><xades:SignedSignatureProperties><xades:SigningTime>2023-10-02T19:36:25Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>DZb1YaWUUh9f1Tq9jggdz5mx9CO4QjDWxSaTvXiaJ34=</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGOMIGBpH8wfTELMAkGA1UEBhMCSVQxJDAiBgNVBAoMG05hbWlyaWFsIFMucC5BLi8wMjA0NjU3MDQyNjEgMB4GA1UECwwXQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxJjAkBgNVBAMMHU5hbWlyaWFsIENBIEZpcm1hIFF1YWxpZmljYXRhAgh4lY8MAd7IeQ==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#null"><xades:MimeType>application/octet-stream</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></ns3:FatturaElettronica>

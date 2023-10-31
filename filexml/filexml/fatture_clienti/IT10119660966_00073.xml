@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79757</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10119660966</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10119660966</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>BES SOCIETA&apos; COOPERATIVA SOCIALE</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF17</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES, N. 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03419330158</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03419330158</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>IMPRESA SAN SIRO AMERICAN FUNERAL SPA</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA PANTANO 15</Indirizzo>
+				<CAP>20100</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-25</Data>
+				<Numero>18</Numero>
+				<ImportoTotaleDocumento>1220.00</ImportoTotaleDocumento>
+				<Causale>Ft ex art.32-bis DL 83/2012 IMPRESA SAN SIRO AMERICAN FUNERAL SPA</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>ATTIVITA&apos; DI BACK OFFICE 1 RISORSA
+
+COME DA ART 14 DEL D.LGS DEL 10/09/2003 N. 276
+
+D.LGS DEL 18/08/2000 N.267 E IL D.LGS DEL 8/11/1991 N. 381
+
+PERIODO: 28/08/23 - 27/09/2023</Descrizione>
+				<PrezzoUnitario>1000.00</PrezzoUnitario>
+				<PrezzoTotale>1000.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>1000.00</ImponibileImporto>
+				<Imposta>220.00</Imposta>
+				<EsigibilitaIVA>D</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-25</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>65</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-11-29</DataScadenzaPagamento>
+				<ImportoPagamento>1220.00</ImportoPagamento>
+				<IstitutoFinanziario>BANCO BPM S.P.A.</IstitutoFinanziario>
+				<IBAN>IT22V0503401691000000002733</IBAN>
+				<ABI>05034</ABI>
+				<CAB>01691</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

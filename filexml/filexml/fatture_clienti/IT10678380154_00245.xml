@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79915</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>W7YVJK9</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10678380154</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10678380154</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DINAMICA SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES, N. 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@dinamica-si.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03085910838</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03085910838</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>CUBECURVE PEOPLE SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>BIVIO S.LUCIA CPL &quot;I PORTICI 2&quot;</Indirizzo>
+				<CAP>98125</CAP>
+				<Comune>MESSINA</Comune>
+				<Provincia>ME</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-29</Data>
+				<Numero>FT/514</Numero>
+				<ImportoTotaleDocumento>1568.07</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>TASK MESI DI AGOSTO 2023
+
+RISORSA: IBANEZ(15GG)</Descrizione>
+				<PrezzoUnitario>1285.30</PrezzoUnitario>
+				<PrezzoTotale>1285.30</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>1285.30</ImponibileImporto>
+				<Imposta>282.77</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-29</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>62</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-11-30</DataScadenzaPagamento>
+				<ImportoPagamento>1568.07</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT35C0608510303000000031404</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

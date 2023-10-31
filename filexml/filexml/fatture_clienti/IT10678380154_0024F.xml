@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>80067</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>RELYGRU</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10678380154</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10678380154</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DINAMICA SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES, N. 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@dinamica-si.it</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>09720790964</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>09720790964</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DIGITAL TECHNOLOGIES SRL SOCIETA&apos; BENEFIT</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA POLITI,14</Indirizzo>
+				<CAP>20090</CAP>
+				<Comune>TREZZANO SUL NAVIGLIO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-30</Data>
+				<Numero>FT/523</Numero>
+				<ImportoTotaleDocumento>3416.00</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>SERVIZI DI CONSULENZA JAVA JUNIOR
+
+MESE DI SETTEMBRE 2023
+
+RISORSA DE DONNANTONIO(20GG)
+
+ORDINE 2022 1012 ORD DIN-07 DEL 23/12/2022</Descrizione>
+				<PrezzoUnitario>2800.00</PrezzoUnitario>
+				<PrezzoTotale>2800.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>2800.00</ImponibileImporto>
+				<Imposta>616.00</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-30</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>123</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2024-01-31</DataScadenzaPagamento>
+				<ImportoPagamento>3416.00</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT35C0608510303000000031404</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

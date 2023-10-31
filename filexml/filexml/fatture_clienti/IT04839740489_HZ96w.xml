@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" versione="FPR12">
+<FatturaElettronicaHeader>
+  <DatiTrasmissione>
+    <IdTrasmittente>
+      <IdPaese>IT</IdPaese>
+      <IdCodice>04839740489</IdCodice>
+    </IdTrasmittente>
+    <ProgressivoInvio>0013136DC9</ProgressivoInvio>
+    <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+    <CodiceDestinatario>0000000</CodiceDestinatario>
+  </DatiTrasmissione>
+  <CedentePrestatore>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>13455940158</IdCodice>
+      </IdFiscaleIVA>
+      <CodiceFiscale>97081660157</CodiceFiscale>
+      <Anagrafica>
+        <Denominazione>BNP PARIBAS LEASE GROUP SA</Denominazione>
+      </Anagrafica>
+      <RegimeFiscale>RF01</RegimeFiscale>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>PIAZZA LINA BO BARDI</Indirizzo>
+      <NumeroCivico>3</NumeroCivico>
+      <CAP>20124</CAP>
+      <Comune>Milano</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+    <IscrizioneREA>
+      <Ufficio>MI</Ufficio>
+      <NumeroREA>MI - 1649804</NumeroREA>
+      <CapitaleSociale>285079248.00</CapitaleSociale>
+      <SocioUnico>SU</SocioUnico>
+      <StatoLiquidazione>LN</StatoLiquidazione>
+    </IscrizioneREA>
+    <Contatti>
+      <Telefono>02673331</Telefono>
+      <Fax>0267333400</Fax>
+    </Contatti>
+  </CedentePrestatore>
+  <CessionarioCommittente>
+    <DatiAnagrafici>
+      <IdFiscaleIVA>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>03860890965</IdCodice>
+      </IdFiscaleIVA>
+      <CodiceFiscale>03860890965</CodiceFiscale>
+      <Anagrafica>
+        <Denominazione>ANT S.R.L. </Denominazione>
+      </Anagrafica>
+    </DatiAnagrafici>
+    <Sede>
+      <Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+      <CAP>20124</CAP>
+      <Comune>MILANO</Comune>
+      <Provincia>MI</Provincia>
+      <Nazione>IT</Nazione>
+    </Sede>
+  </CessionarioCommittente>
+</FatturaElettronicaHeader><FatturaElettronicaBody>
+  <DatiGenerali>
+    <DatiGeneraliDocumento>
+      <TipoDocumento>TD01</TipoDocumento>
+      <Divisa>EUR</Divisa>
+      <Data>2023-09-11</Data>
+      <Numero>JHI09667</Numero>
+      <ImportoTotaleDocumento>391.25</ImportoTotaleDocumento>
+      <Causale>Contratto di: Locazione Operativa Cliente: 11052717 Codice fiscale: 0000003860890965 Partita IVA: IT03860890965 Locatario:  </Causale>
+    </DatiGeneraliDocumento>
+    <DatiContratto>
+      <IdDocumento>A1B81882</IdDocumento>
+    </DatiContratto>
+  </DatiGenerali>
+  <DatiBeniServizi>
+    <DettaglioLinee>
+      <NumeroLinea>1</NumeroLinea>
+      <Descrizione>N. ctr:A1B81882 Lotto:1 Canone (rif. Interno FLL 4Y496614) dal 2023-10-01 al 2023-12-31</Descrizione>
+      <DataInizioPeriodo>2023-10-01</DataInizioPeriodo>
+      <DataFinePeriodo>2023-12-31</DataFinePeriodo>
+      <PrezzoUnitario>308.18</PrezzoUnitario>
+      <PrezzoTotale>308.18</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <RiferimentoAmministrazione>A1B81882</RiferimentoAmministrazione>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>2</NumeroLinea>
+      <Descrizione>Servizio Assicurativo Sinistri Bene IT OPZIONE BENI FISSI OFFICE dal 2023-10-01 al 2023-12-31</Descrizione>
+      <DataInizioPeriodo>2023-10-01</DataInizioPeriodo>
+      <DataFinePeriodo>2023-12-31</DataFinePeriodo>
+      <PrezzoUnitario>6.82</PrezzoUnitario>
+      <PrezzoTotale>6.82</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <RiferimentoAmministrazione>A1B81882</RiferimentoAmministrazione>
+    </DettaglioLinee>
+    <DettaglioLinee>
+      <NumeroLinea>3</NumeroLinea>
+      <Descrizione>EASY PACK (rif interno FPS 4Y496615)</Descrizione>
+      <PrezzoUnitario>5.70</PrezzoUnitario>
+      <PrezzoTotale>5.70</PrezzoTotale>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <RiferimentoAmministrazione>A1B81882</RiferimentoAmministrazione>
+    </DettaglioLinee>
+    <DatiRiepilogo>
+      <AliquotaIVA>22.00</AliquotaIVA>
+      <ImponibileImporto>320.70</ImponibileImporto>
+      <Imposta>70.55</Imposta>
+      <EsigibilitaIVA>I</EsigibilitaIVA>
+      <RiferimentoNormativo>Imponibile</RiferimentoNormativo>
+    </DatiRiepilogo>
+  </DatiBeniServizi>
+  <DatiPagamento>
+    <CondizioniPagamento>TP02</CondizioniPagamento>
+    <DettaglioPagamento>
+      <ModalitaPagamento>MP19</ModalitaPagamento>
+      <DataScadenzaPagamento>2023-10-01</DataScadenzaPagamento>
+      <ImportoPagamento>391.25</ImportoPagamento>
+      <IstitutoFinanziario>CASSA DI RISPARMIO DI AS</IstitutoFinanziario>
+      <IBAN>IT53N0608510303000000033036</IBAN>
+    </DettaglioPagamento>
+  </DatiPagamento>
+</FatturaElettronicaBody>
+</p:FatturaElettronica>

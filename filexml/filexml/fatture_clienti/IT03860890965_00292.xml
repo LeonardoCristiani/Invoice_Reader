@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79918</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>0000000</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<CodiceFiscale>97877260154</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>FMPI MILANO</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-29</Data>
+				<Numero>FT/285</Numero>
+				<ImportoTotaleDocumento>927.63</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>DISTACCO RISORSA PERSENICO GIUDITTA
+
+MESE DI AGOSTO 2023</Descrizione>
+				<PrezzoUnitario>927.63</PrezzoUnitario>
+				<PrezzoTotale>927.63</PrezzoTotale>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N2.2</Natura>
+				<ImponibileImporto>927.63</ImponibileImporto>
+				<Imposta>0.00</Imposta>
+				<RiferimentoNormativo>ESCLUSO ART. 8 COMMA 35 L. 67/88</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-29</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>32</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-10-31</DataScadenzaPagamento>
+				<ImportoPagamento>927.63</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT53N0608510303000000033036</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FatturaElettronica xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12" xmlns="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+  <FatturaElettronicaHeader xmlns="">
+    <DatiTrasmissione>
+      <IdTrasmittente>
+        <IdPaese>IT</IdPaese>
+        <IdCodice>11325150156</IdCodice>
+      </IdTrasmittente>
+      <ProgressivoInvio>SE02100507</ProgressivoInvio>
+      <FormatoTrasmissione>FPR12</FormatoTrasmissione>
+      <CodiceDestinatario>USAL8PV</CodiceDestinatario>
+      <ContattiTrasmittente>
+        <Telefono>0257503369</Telefono>
+        <Email>assistenza@docflow.it</Email>
+      </ContattiTrasmittente>
+      <PECDestinatario>servizigenerali.coop@legalmail.it</PECDestinatario>
+    </DatiTrasmissione>
+    <CedentePrestatore>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>00826040156</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Società per Azioni Esercizi Aeroportuali S.E.A.</Denominazione>
+        </Anagrafica>
+        <RegimeFiscale>RF01</RegimeFiscale>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>Aeroporto Milano Linate</Indirizzo>
+        <CAP>20054</CAP>
+        <Comune>Segrate</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+      <IscrizioneREA>
+        <Ufficio>MI</Ufficio>
+        <NumeroREA>472807</NumeroREA>
+        <CapitaleSociale>27500000.00</CapitaleSociale>
+        <SocioUnico>SM</SocioUnico>
+        <StatoLiquidazione>LN</StatoLiquidazione>
+      </IscrizioneREA>
+      <RiferimentoAmministrazione>Linate</RiferimentoAmministrazione>
+    </CedentePrestatore>
+    <CessionarioCommittente>
+      <DatiAnagrafici>
+        <IdFiscaleIVA>
+          <IdPaese>IT</IdPaese>
+          <IdCodice>07633540963</IdCodice>
+        </IdFiscaleIVA>
+        <Anagrafica>
+          <Denominazione>Servizi Generali Informatici Soc. C</Denominazione>
+        </Anagrafica>
+      </DatiAnagrafici>
+      <Sede>
+        <Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+        <CAP>20124</CAP>
+        <Comune>MILANO</Comune>
+        <Provincia>MI</Provincia>
+        <Nazione>IT</Nazione>
+      </Sede>
+    </CessionarioCommittente>
+  </FatturaElettronicaHeader>
+  <FatturaElettronicaBody xmlns="">
+    <DatiGenerali>
+      <DatiGeneraliDocumento>
+        <TipoDocumento>TD01</TipoDocumento>
+        <Divisa>EUR</Divisa>
+        <Data>2023-08-31</Data>
+        <Numero>0020019973</Numero>
+        <ImportoTotaleDocumento>85.40</ImportoTotaleDocumento>
+        <Causale>Periodo Riferimento dal 20.08.2023 al 20.08.2023</Causale>
+        <Causale>Nostro Riferimento 2100769103</Causale>
+      </DatiGeneraliDocumento>
+    </DatiGenerali>
+    <DatiBeniServizi>
+      <DettaglioLinee>
+        <NumeroLinea>1</NumeroLinea>
+        <Descrizione>CORSO FORMAZ. SECURITY CAT. A13 INIZIALE</Descrizione>
+        <PrezzoUnitario>70.00</PrezzoUnitario>
+        <PrezzoTotale>70.00</PrezzoTotale>
+        <AliquotaIVA>22.00</AliquotaIVA>
+      </DettaglioLinee>
+      <DatiRiepilogo>
+        <AliquotaIVA>22.00</AliquotaIVA>
+        <ImponibileImporto>70.00</ImponibileImporto>
+        <Imposta>15.40</Imposta>
+        <EsigibilitaIVA>I</EsigibilitaIVA>
+      </DatiRiepilogo>
+    </DatiBeniServizi>
+    <DatiPagamento>
+      <CondizioniPagamento>TP02</CondizioniPagamento>
+      <DettaglioPagamento>
+        <ModalitaPagamento>MP05</ModalitaPagamento>
+        <DataRiferimentoTerminiPagamento>2023-08-31</DataRiferimentoTerminiPagamento>
+        <GiorniTerminiPagamento>0</GiorniTerminiPagamento>
+        <DataScadenzaPagamento>2023-08-31</DataScadenzaPagamento>
+        <ImportoPagamento>85.40</ImportoPagamento>
+        <IstitutoFinanziario>BANCO BPM SPA</IstitutoFinanziario>
+        <IBAN>IT10N0503420603000000000001</IBAN>
+        <BIC>BAPPIT21756</BIC>
+      </DettaglioPagamento>
+    </DatiPagamento>
+    <Allegati>
+      <NomeAttachment>135590581.PDF</NomeAttachment>
+      <FormatoAttachment>PDF</FormatoAttachment>
+      <DescrizioneAttachment>Allegato Fattura 020019973</DescrizioneAttachment>
+      <Attachment>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</Attachment>
+    </Allegati>
+  </FatturaElettronicaBody>
+</FatturaElettronica>

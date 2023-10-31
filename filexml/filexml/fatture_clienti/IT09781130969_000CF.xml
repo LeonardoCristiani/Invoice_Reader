@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79760</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>09781130969</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>09781130969</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>RETE D&apos;IMPRESE PER L&apos;ARTIGIANATO DIGITALE</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF17</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>07870580961</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>07870580961</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>TALENTI E IMPRESE SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-25</Data>
+				<Numero>61</Numero>
+				<ImportoTotaleDocumento>610.00</ImportoTotaleDocumento>
+				<Causale>Ft ex art.32-bis DL 83/2012 TALENTI E IMPRESE SRL</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>PRESTAZIONE DI SERVIZI EFFETTUATI PER VOSTRO
+
+CONTO MESE DI SETTEMBRE 2023</Descrizione>
+				<PrezzoUnitario>500.00</PrezzoUnitario>
+				<PrezzoTotale>500.00</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>500.00</ImponibileImporto>
+				<Imposta>110.00</Imposta>
+				<EsigibilitaIVA>D</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-25</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>5</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-09-30</DataScadenzaPagamento>
+				<ImportoPagamento>610.00</ImportoPagamento>
+				<IstitutoFinanziario>BANCO BPM S.P.A.</IstitutoFinanziario>
+				<IBAN>IT96W0503401691000000002734</IBAN>
+				<ABI>05034</ABI>
+				<CAB>01691</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

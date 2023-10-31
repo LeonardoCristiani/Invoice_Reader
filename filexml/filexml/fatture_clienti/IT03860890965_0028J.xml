@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79527</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>USAL8PV</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>ES</IdPaese>
+					<IdCodice>ESW0184081H</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>ESW0184081H</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>AMAZON EU SARL SUCURSAL ESPANA</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF18</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CALLE DE RAMIREZ DE PRADO 5</Indirizzo>
+				<CAP>28045</CAP>
+				<Comune>MADRID</Comune>
+				<Provincia>EE</Provincia>
+				<Nazione>ES</Nazione>
+			</Sede>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD18</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-19</Data>
+				<Numero>16/UE UE</Numero>
+				<ImportoTotaleDocumento>115.89</ImportoTotaleDocumento>
+			</DatiGeneraliDocumento>
+			<DatiFattureCollegate>
+				<IdDocumento>ES323LYYAEUI</IdDocumento>
+				<Data>2023-07-19</Data>
+			</DatiFattureCollegate>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<Descrizione>Documento integrativo Art.46, c.1 D.L.331/93 - Beni</Descrizione>
+				<PrezzoUnitario>94.99</PrezzoUnitario>
+				<PrezzoTotale>94.99</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>94.99</ImponibileImporto>
+				<Imposta>20.90</Imposta>
+				<EsigibilitaIVA>I</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

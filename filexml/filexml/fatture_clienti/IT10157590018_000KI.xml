@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>79825</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>Z12E0DM</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>10157590018</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>10157590018</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>EUROPEAN SCHOOL OF PROJECT MANAGEMENT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF17</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Fax>0242108916</Fax>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03318271214</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03318271214</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>DGS  SPA</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>VIA PAOLO DI DONO, N 73</Indirizzo>
+				<CAP>00142</CAP>
+				<Comune>ROMA</Comune>
+				<Provincia>RM</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-09-25</Data>
+				<Numero>FT/187</Numero>
+				<ImportoTotaleDocumento>3525.79</ImportoTotaleDocumento>
+				<Causale>Ft ex art.32-bis DL 83/2012 DGS  SPA</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>CONSULENZA</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>SERVIZI DI CONSULENZA INFORMATICA IN
+
+AMBITO ICT
+
+MESE DI AGOSTO 2023
+
+ORDINE:DGS-ODA0003492
+
+COMMESSA DGS_P000545
+
+BENESTARE. DGS-010245 DEL 25/09/23</Descrizione>
+				<Quantita>1.00000000</Quantita>
+				<UnitaMisura>N.</UnitaMisura>
+				<PrezzoUnitario>2889.99</PrezzoUnitario>
+				<PrezzoTotale>2889.99</PrezzoTotale>
+				<AliquotaIVA>22.00</AliquotaIVA>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>22.00</AliquotaIVA>
+				<ImponibileImporto>2889.99</ImponibileImporto>
+				<Imposta>635.80</Imposta>
+				<EsigibilitaIVA>D</EsigibilitaIVA>
+				<RiferimentoNormativo>22% - GENERICO</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-09-25</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>97</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-12-31</DataScadenzaPagamento>
+				<ImportoPagamento>3525.79</ImportoPagamento>
+				<IstitutoFinanziario>BANCA SELLA SPA</IstitutoFinanziario>
+				<IBAN>IT83Q0326822300052869612620</IBAN>
+				<ABI>03268</ABI>
+				<CAB>22300</CAB>
+				<BIC>SELBIT2BXXX</BIC>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+

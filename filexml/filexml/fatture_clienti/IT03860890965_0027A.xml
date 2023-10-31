@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet  type="text/xsl" href="fatturaordinaria_v1.2.2.xsl"?>
+<p:FatturaElettronica xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:p="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" versione="FPR12">
+	<FatturaElettronicaHeader>
+		<DatiTrasmissione>
+			<IdTrasmittente>
+				<IdPaese>IT</IdPaese>
+				<IdCodice>08245660017</IdCodice>
+			</IdTrasmittente>
+			<ProgressivoInvio>78931</ProgressivoInvio>
+			<FormatoTrasmissione>FPR12</FormatoTrasmissione>
+			<CodiceDestinatario>KRRH6B9</CodiceDestinatario>
+		</DatiTrasmissione>
+		<CedentePrestatore>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>03860890965</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>03860890965</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>ANT SRL</Denominazione>
+				</Anagrafica>
+				<RegimeFiscale>RF01</RegimeFiscale>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>CORSO BUENOS AIRES 47</Indirizzo>
+				<CAP>20124</CAP>
+				<Comune>MILANO</Comune>
+				<Provincia>MI</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+			<Contatti>
+				<Telefono>0229013496</Telefono>
+				<Email>amministrazione@antsrl.com</Email>
+			</Contatti>
+		</CedentePrestatore>
+		<CessionarioCommittente>
+			<DatiAnagrafici>
+				<IdFiscaleIVA>
+					<IdPaese>IT</IdPaese>
+					<IdCodice>09106101000</IdCodice>
+				</IdFiscaleIVA>
+				<CodiceFiscale>09106101000</CodiceFiscale>
+				<Anagrafica>
+					<Denominazione>UNIVERSITA&apos; TELEMATICA UNIVERSITAS MERCATORUM</Denominazione>
+				</Anagrafica>
+			</DatiAnagrafici>
+			<Sede>
+				<Indirizzo>PALAZZO COSTAGUTI -PIAZZA MATTEI 10</Indirizzo>
+				<CAP>00186</CAP>
+				<Comune>ROMA</Comune>
+				<Provincia>RM</Provincia>
+				<Nazione>IT</Nazione>
+			</Sede>
+		</CessionarioCommittente>
+	</FatturaElettronicaHeader>
+	<FatturaElettronicaBody>
+		<DatiGenerali>
+			<DatiGeneraliDocumento>
+				<TipoDocumento>TD01</TipoDocumento>
+				<Divisa>EUR</Divisa>
+				<Data>2023-08-29</Data>
+				<Numero>FT/253</Numero>
+				<DatiBollo>
+					<BolloVirtuale>SI</BolloVirtuale>
+					<ImportoBollo>2.00</ImportoBollo>
+				</DatiBollo>
+				<ImportoTotaleDocumento>367.50</ImportoTotaleDocumento>
+				<Causale>Fattura di vendita</Causale>
+			</DatiGeneraliDocumento>
+		</DatiGenerali>
+		<DatiBeniServizi>
+			<DettaglioLinee>
+				<NumeroLinea>1</NumeroLinea>
+				<CodiceArticolo>
+					<CodiceTipo>Articolo</CodiceTipo>
+					<CodiceValore>PREST</CodiceValore>
+				</CodiceArticolo>
+				<Descrizione>CONTRIBUTO DETERMINATO DAL
+
+01/07/23 AL 31/07/23 SULLA BASE
+
+DELLA CONVENZIONE SOTTOSCRITTA
+
+CON L&apos; ATENEO</Descrizione>
+				<PrezzoUnitario>367.50</PrezzoUnitario>
+				<PrezzoTotale>367.50</PrezzoTotale>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N4</Natura>
+			</DettaglioLinee>
+			<DatiRiepilogo>
+				<AliquotaIVA>0.00</AliquotaIVA>
+				<Natura>N4</Natura>
+				<ImponibileImporto>367.50</ImponibileImporto>
+				<Imposta>0.00</Imposta>
+				<RiferimentoNormativo>ESENTE IVA ART.10, PUNTO 20 DPR 633/72</RiferimentoNormativo>
+			</DatiRiepilogo>
+		</DatiBeniServizi>
+		<DatiPagamento>
+			<CondizioniPagamento>TP02</CondizioniPagamento>
+			<DettaglioPagamento>
+				<ModalitaPagamento>MP05</ModalitaPagamento>
+				<DataRiferimentoTerminiPagamento>2023-08-29</DataRiferimentoTerminiPagamento>
+				<GiorniTerminiPagamento>32</GiorniTerminiPagamento>
+				<DataScadenzaPagamento>2023-09-30</DataScadenzaPagamento>
+				<ImportoPagamento>367.50</ImportoPagamento>
+				<IstitutoFinanziario>CASSA DI RISPARMIO DI ASTI SPA</IstitutoFinanziario>
+				<IBAN>IT53N0608510303000000033036</IBAN>
+				<ABI>06085</ABI>
+				<CAB>10303</CAB>
+			</DettaglioPagamento>
+		</DatiPagamento>
+	</FatturaElettronicaBody>
+</p:FatturaElettronica>
+
