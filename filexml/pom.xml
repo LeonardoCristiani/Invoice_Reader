@@ -12,8 +12,8 @@
 	<groupId>com.ant.test</groupId>
 	<artifactId>progettoFinale</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>progettoFinale</name>
-	<description>Demo project for Spring Boot</description>
+	<name>Invoice </name>
+	<description>Micro servizio per inserire le Informazioni allingerno del db</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -102,11 +102,11 @@
 			<version>1.6.2</version>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/org.springframework.shell/spring-shell-starter -->
-		<dependency>
+		<!-- <dependency>
 			<groupId>org.springframework.shell</groupId>
 			<artifactId>spring-shell-starter</artifactId>
 			<version>3.1.0</version>
-		</dependency>
+		</dependency> -->
 
 
 		<dependency>

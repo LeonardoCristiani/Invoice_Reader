@@ -9,6 +9,7 @@ import jakarta.xml.bind.Unmarshaller;
 import java.nio.file.Path;
 import lombok.Data;
 
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Component;
 
@@ -36,7 +37,8 @@ import javax.xml.parsers.ParserConfigurationException;
 @Data
 public class DbRefresher 
 {
-    private static final String PATH = "/Users/leonardocristiani/Desktop/fatturaletta";
+    @Value("${File_Destinazione_Invoice_Lette}")
+    private final String PATH ;
     private final Service_Controller service_Controller;
     private final Gestione_file gestione_file;
 
