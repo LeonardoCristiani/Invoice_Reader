@@ -38,7 +38,10 @@ import javax.xml.parsers.ParserConfigurationException;
 public class DbRefresher 
 {
     @Value("${File_Destinazione_Invoice_Lette}")
-    private final String PATH ;
+    private final String PATH_DESTINAZIONE ;
+
+    @Value("${File_Partenza_Invoice}")
+    private final String PATH_INIZIO;
     private final Service_Controller service_Controller;
     private final Gestione_file gestione_file;
 
@@ -50,7 +53,7 @@ public class DbRefresher
         try 
         {
             factory.setFeature(XMLConstants.FEATURE_SECURE_PROCESSING, true);
-            try (DirectoryStream<Path> files = Files.newDirectoryStream(Paths.get("../filexml/filexml/fatture_clienti"))) 
+            try (DirectoryStream<Path> files = Files.newDirectoryStream(Paths.get(PATH_INIZIO))) 
             {
                 JAXBContext jc = JAXBContext.newInstance(FatturaElettronicaType.class);
                 Unmarshaller unmarshaller = jc.createUnmarshaller();
@@ -61,6 +64,7 @@ public class DbRefresher
                     System.out.println(xml.getName());
                     try
                     {
+
                         JAXBElement<FatturaElettronicaType> tests = (JAXBElement<FatturaElettronicaType>) unmarshaller.unmarshal(xml);
                         FatturaElettronicaType fattura = tests.getValue();
                         InvoiceXML invoicexml = new InvoiceXML();
@@ -70,7 +74,7 @@ public class DbRefresher
                         if(fattura.getFatturaElettronicaHeader().getDatiTrasmissione().getPECDestinatario()!= null)
                         {
                             //Files.delete(file)
-                             Files.move(Paths.get(xml.getPath()),Paths.get(PATH+"/errore/malformate/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
+                             Files.move(Paths.get(xml.getPath()),Paths.get(PATH_DESTINAZIONE+"/errore/malformate/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
 
                             continue;
                         }
@@ -99,7 +103,6 @@ public class DbRefresher
                         }
                         else
                         {
-                            System.out.println("kkkkkkk");
                             invoice.setCollectionDate(LocalDate.parse(invoicexml.getDati_generali().getData().toString()));
                             try
                             {
@@ -144,7 +147,14 @@ public class DbRefresher
                             invoice.setVat(Double.parseDouble(invoicexml.getRiepilogo().getImposta().toString()));//tasse
                             invoice.setRetentionTax(0.0);//ritenuta
                             invoice.setWasAdvanced(false);//anticipato
-                            invoice.setWasReversed(false);//stornato
+                            if(invoice.getType().getType().equals("TD_04"))
+                            {
+                                invoice.setWasReversed(true);//stornato
+                            }else
+                            {
+                                invoice.setWasReversed(false);//stornato
+                            }
+
                             service_Controller.getInvoiceService().saveInDB(invoice); 
                          
                         }else
@@ -155,7 +165,7 @@ public class DbRefresher
                         {
                             service_Controller.getCompanyService().findByTypeAndVat_Number("INTERNO", invoice.getSender().getVat_number());
                             DatiGeneraliDocumentoType  data_info = fattura.getFatturaElettronicaBody().get(0).getDatiGenerali().getDatiGeneraliDocumento();
-                            String path = FileSystem.check_Directory(PATH, invoice.getSender(), data_info);
+                            String path = FileSystem.check_Directory(PATH_DESTINAZIONE, invoice.getSender(), data_info);
                             if(!path.equals(""))
                             {                     
                                 Files.copy(Paths.get(xml.getPath()), Paths.get(path +"/"+ xml.getName()) , StandardCopyOption.REPLACE_EXISTING); 
@@ -170,7 +180,7 @@ public class DbRefresher
                         {
                             service_Controller.getCompanyService().findByTypeAndVat_Number("INTERNO", invoice.getReceiver().getVat_number());
                             DatiGeneraliDocumentoType  data_info = fattura.getFatturaElettronicaBody().get(0).getDatiGenerali().getDatiGeneraliDocumento();
-                            String path = FileSystem.check_Directory(PATH, invoice.getReceiver(), data_info);
+                            String path = FileSystem.check_Directory(PATH_DESTINAZIONE, invoice.getReceiver(), data_info);
                             if(!path.equals(""))
                             {                     
                                 Files.move(Paths.get(xml.getPath()), Paths.get(path +"/"+ xml.getName()), StandardCopyOption.ATOMIC_MOVE);
@@ -191,13 +201,14 @@ public class DbRefresher
                     {
                         System.err.println(e);
                         System.out.println(xml.getPath());
-                        Files.move(Paths.get(xml.getPath()),Paths.get(PATH+"/errore/altre_fatture/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
+                        Files.move(Paths.get(xml.getPath()),Paths.get(PATH_DESTINAZIONE+"/errore/altre_fatture/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
                     }  
                     catch (UnmarshalException ex)
                     {
-                        Files.move(Paths.get(xml.getPath()),Paths.get(PATH+"/errore/malformate/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
+                        Files.move(Paths.get(xml.getPath()),Paths.get(PATH_DESTINAZIONE+"/errore/malformate/"+xml.getName()) , StandardCopyOption.ATOMIC_MOVE);
 
                     }
+                    System.out.println("***********************************************************************************");
                 }    
             }
         }
