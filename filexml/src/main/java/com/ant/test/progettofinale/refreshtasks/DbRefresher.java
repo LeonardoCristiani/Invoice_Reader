@@ -64,7 +64,6 @@ public class DbRefresher
                     System.out.println(xml.getName());
                     try
                     {
-
                         JAXBElement<FatturaElettronicaType> tests = (JAXBElement<FatturaElettronicaType>) unmarshaller.unmarshal(xml);
                         FatturaElettronicaType fattura = tests.getValue();
                         InvoiceXML invoicexml = new InvoiceXML();
